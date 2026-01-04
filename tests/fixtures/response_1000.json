@@ -1,0 +1,28 @@
+{
+  "chapter_id": "1000",
+  "chapter_meta": {
+    "title": "第六卷 通天灵宝 第一千章 石傀儡",
+    "title_vi_ref": null,
+    "title_vi_ai": "Tập sáu Bảo vật thông thiên Chương một nghìn Tượng đá",
+    "has_narrator": true,
+    "language": "zh"
+  },
+  "scenes": [
+    {
+      "scene_id": "scene-001",
+      "description": "Auto-generated placeholder",
+      "sentences": [
+        {
+          "order": 1,
+          "text_zh": "第六卷 通天灵宝 第一千章 石傀儡",
+          "text_vi_ai": "(placeholder translation)",
+          "text_vi": "(placeholder translation)",
+          "character": "narrator",
+          "voice": "narrator",
+          "is_dialogue": false,
+          "text_vi_ref": null
+        }
+      ]
+    }
+  ]
+}

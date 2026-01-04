@@ -1,0 +1,40 @@
+# <type>: <subject>
+# │       │
+# │       └─> Summary in present tense. Not capitalized. No period at the end.
+# │
+# └─> Type: feat|fix|docs|style|refactor|test|chore
+
+# <body>
+# │
+# └─> Explain *what* and *why* (not *how*). Wrap at 72 characters.
+
+# <footer>
+# │
+# └─> Reference issues, breaking changes, etc.
+
+# ────────────────────────────────────────────────────────────────────────────
+# Type can be:
+#   feat:     A new feature
+#   fix:      A bug fix
+#   docs:     Documentation only changes
+#   style:    Code style changes (formatting, missing semi colons, etc)
+#   refactor: Code refactoring (no feat or fix)
+#   test:     Adding or updating tests
+#   chore:    Maintenance tasks, dependencies, config
+#
+# Subject:
+#   - Use imperative mood: "add" not "added" or "adds"
+#   - Don't capitalize first letter
+#   - No period at the end
+#   - Max 50 characters
+#
+# Body:
+#   - Separate from subject with blank line
+#   - Wrap at 72 characters
+#   - Explain what and why, not how
+#   - Can use bullet points with - or *
+#
+# Footer:
+#   - Reference issues: "Closes #123" or "Refs #123"
+#   - Breaking changes: "BREAKING CHANGE: description"
+# ────────────────────────────────────────────────────────────────────────────
