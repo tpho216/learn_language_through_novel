@@ -109,24 +109,32 @@ Now when you run `git commit`, your editor will open with the template.
 
 ## Development Workflow
 
-1. **Create a branch** for your feature or fix:
+1. **Set up your environment** (Python 3.12 required):
+   ```bash
+   python3.12 -m venv .venv
+   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+   pip install --upgrade pip
+   pip install -r requirements.txt
+   ```
+
+2. **Create a branch** for your feature or fix:
    ```bash
    git checkout -b feat/your-feature-name
    # or
    git checkout -b fix/your-bug-fix
    ```
 
-2. **Make your changes** with clear, atomic commits
+3. **Make your changes** with clear, atomic commits
 
-3. **Test your changes**:
+4. **Test your changes**:
    ```bash
    python -m pytest tests/
    python scripts/generate.py tasks/task1.json
    ```
 
-4. **Update documentation** if needed (CHANGELOG.md, docs/, README.md)
+5. **Update documentation** if needed (CHANGELOG.md, docs/, README.md)
 
-5. **Push and create a Pull Request**
+6. **Push and create a Pull Request**
 
 ---
 

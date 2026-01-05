@@ -2,37 +2,67 @@
 
 Piper requires voice models to be downloaded separately before synthesis can work.
 
+## Prerequisites
+
+Before following this guide, ensure you have:
+
+1. **Python 3.12** virtual environment activated (see main README.md)
+2. **Piper TTS installed** (`pip install -r requirements.txt`)
+3. **System audio libraries**:
+   ```bash
+   # Ubuntu/Debian
+   sudo apt-get install -y libsndfile1
+   
+   # macOS
+   brew install libsndfile
+   ```
+
 ## Quick Start
 
-### 1. List Available Voices
+### 1. Download Voice Models (Recommended Method)
+
+Use the official Piper download command (easiest):
 
 ```bash
 source .venv/bin/activate
-piper --help
+
+# Download English voices
+python3 -m piper.download_voices en_US-lessac-medium
+python3 -m piper.download_voices en_US-amy-medium
+
+# Download Vietnamese voice
+python3 -m piper.download_voices vi_VN-vais1000-medium
+
+# Download Chinese voice
+python3 -m piper.download_voices zh_CN-huayan-medium
 ```
 
-### 2. Download Voices via HuggingFace
+Voices are automatically saved to `~/.local/share/piper-voices/`.
 
-Piper voices are hosted on HuggingFace. Download them manually:
+### 2. Alternative: Manual Download via HuggingFace
+
+If the automatic download doesn't work, download manually:
 
 ```bash
 # Create directory for voices
 mkdir -p ~/.local/share/piper-voices
-
-# Download a voice model (example: en_US-lessac-medium)
 cd ~/.local/share/piper-voices
 
 # Download model files from HuggingFace
 # Format: https://huggingface.co/rhasspy/piper-voices/resolve/main/[lang]/[region]/[name]/[quality]/
-wget https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/medium/en_US-lessac-medium.onnx
-wget https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/medium/en_US-lessac-medium.onnx.json
 
-# Download another voice (amy)
-wget https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/amy/medium/en_US-amy-medium.onnx
-wget https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/amy/medium/en_US-amy-medium.onnx.json
+# English voices
+wget https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/medium/en_US-lessac-medium.onnx{,.json}
+wget https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/amy/medium/en_US-amy-medium.onnx{,.json}
+
+# Vietnamese voice
+wget https://huggingface.co/rhasspy/piper-voices/resolve/main/vi/vi_VN/vais1000/medium/vi_VN-vais1000-medium.onnx{,.json}
+
+# Chinese voice
+wget https://huggingface.co/rhasspy/piper-voices/resolve/main/zh/zh_CN/huayan/medium/zh_CN-huayan-medium.onnx{,.json}
 ```
 
-### 3. Alternative: Browse All Available Voices
+### 3. Browse All Available Voices
 
 Visit: https://huggingface.co/rhasspy/piper-voices/tree/main
 
@@ -42,48 +72,90 @@ Available languages include:
 - **Vietnamese**: vi_VN (limited availability)
 - **Spanish, French, German, Italian**, and many more
 
-### 4. Update Voice Paths in Code
+### 4. Test Voice with Python API
 
-Edit `src/services/piper_tts.py` to use downloaded voices:
+Quick test to verify a voice works:
 
 ```python
-VOICE_MODELS = {
-    "zh_narrator": "en_US-lessac-medium",  # Using English as fallback
-    "en_narrator": "en_US-lessac-medium",
-    "en_teacher": "en_US-amy-medium",
-    # Add more as you download them
-}
+import wave
+from piper.voice import PiperVoice
+
+# Load a voice (will search in ~/.local/share/piper-voices)
+voice = PiperVoice.load("~/.local/share/piper-voices/en_US-lessac-medium.onnx")
+
+# Synthesize to WAV file
+with wave.open("test.wav", "wb") as wav_file:
+    voice.synthesize_wav("Welcome to the world of speech synthesis!", wav_file)
+
+print("✓ Test audio created: test.wav")
 ```
 
-### 5. Set Piper Data Directory (Optional)
+### 5. Advanced Synthesis Options
+
+Adjust speech parameters:
+
+```python
+from piper.voice import PiperVoice, SynthesisConfig
+
+voice = PiperVoice.load("/path/to/voice.onnx")
+
+syn_config = SynthesisConfig(
+    volume=0.5,        # Half as loud
+    length_scale=2.0,  # Twice as slow
+    noise_scale=1.0,   # More audio variation
+    noise_w_scale=1.0, # More speaking variation
+    normalize_audio=False  # Use raw audio from voice
+)
+
+voice.synthesize_wav("text", wav_file, syn_config=syn_config)
+```
+
+### 6. GPU Acceleration (Optional)
+
+For faster synthesis with CUDA GPU:
 
 ```bash
-# Tell piper where to find voices
-export PIPER_DATA_DIR=~/.local/share/piper-voices
+pip install onnxruntime-gpu
+```
 
-# Or add to .env file
-echo "PIPER_DATA_DIR=~/.local/share/piper-voices" >> .env
+```python
+voice = PiperVoice.load("/path/to/voice.onnx", use_cuda=True)
 ```
 
 ## Recommended Voices for This Project
 
-### English (Best Support)
+### Required for Chinese/Vietnamese Novel Processing
+
+**Using automatic download (recommended):**
 ```bash
-cd ~/.local/share/piper-voices
-# Lessac - clear male voice
-wget https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/medium/en_US-lessac-medium.onnx{,.json}
+source .venv/bin/activate
 
-# Amy - female voice
-wget https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/amy/medium/en_US-amy-medium.onnx{,.json}
+# Vietnamese voices (primary)
+python3 -m piper.download_voices vi_VN-vais1000-medium
+python3 -m piper.download_voices vi_VN-vivos-x_low
 
-# Libritts - high quality
-wget https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/libritts/high/en_US-libritts-high.onnx{,.json}
+# Chinese voices
+python3 -m piper.download_voices zh_CN-huayan-medium
+
+# English fallback
+python3 -m piper.download_voices en_US-lessac-medium
+python3 -m piper.download_voices en_US-amy-medium
 ```
 
-### Chinese (Limited)
+**Manual download (if automatic fails):**
 ```bash
-# Check if available
+cd ~/.local/share/piper-voices
+
+# Vietnamese
+wget https://huggingface.co/rhasspy/piper-voices/resolve/main/vi/vi_VN/vais1000/medium/vi_VN-vais1000-medium.onnx{,.json}
+wget https://huggingface.co/rhasspy/piper-voices/resolve/main/vi/vi_VN/vivos/x_low/vi_VN-vivos-x_low.onnx{,.json}
+
+# Chinese
 wget https://huggingface.co/rhasspy/piper-voices/resolve/main/zh/zh_CN/huayan/medium/zh_CN-huayan-medium.onnx{,.json}
+
+# English
+wget https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/medium/en_US-lessac-medium.onnx{,.json}
+wget https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/amy/medium/en_US-amy-medium.onnx{,.json}
 ```
 
 ## Testing After Download
@@ -113,18 +185,39 @@ Expected output:
 ✗ Segment 1: Voice model 'en_US-lessac-medium' not found
 ```
 
-**Solution**: Download the voice model files (.onnx and .onnx.json) to the piper data directory.
+**Solution**: Download the voice model:
+```bash
+python3 -m piper.download_voices en_US-lessac-medium
+```
+
+Or check if it exists:
+```bash
+ls ~/.local/share/piper-voices/*.onnx
+```
+
+### Download Command Fails
+
+If `python3 -m piper.download_voices` doesn't work, use manual wget method (see section 2 above).
 
 ### Permission Errors
 ```bash
 # Make sure directory is writable
+mkdir -p ~/.local/share/piper-voices
 chmod -R 755 ~/.local/share/piper-voices
 ```
 
-### Manual Testing with Piper CLI
-```bash
-# Test a voice directly
-echo "Hello world" | piper --model en_US-lessac-medium --output_file test.wav
+### Test Voice in Python
+```python
+import wave
+from piper.voice import PiperVoice
+
+try:
+    voice = PiperVoice.load("~/.local/share/piper-voices/en_US-lessac-medium.onnx")
+    with wave.open("test.wav", "wb") as wav_file:
+        voice.synthesize_wav("Hello world", wav_file)
+    print("✓ Voice works!")
+except Exception as e:
+    print(f"✗ Error: {e}")
 ```
 
 ## Using OpenAI TTS Instead

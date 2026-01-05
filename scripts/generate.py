@@ -390,6 +390,15 @@ def run(task_path: Path) -> int:
                 print(f"✓ Synthesized {result['successful']}/{result['total_segments']} segments")
                 print(f"  Output: {result['output_dir']}")
                 
+                # Show first few errors if any failed
+                if result['failed'] > 0:
+                    print(f"\n⚠️ {result['failed']} segments failed:")
+                    failed_results = [r for r in result['results'] if not r['success']][:3]
+                    for r in failed_results:
+                        print(f"  - Segment {r['order']}: {r.get('error', 'Unknown error')}")
+                    if result['failed'] > 3:
+                        print(f"  ... and {result['failed'] - 3} more")
+                
                 # Merge segments into single file if enabled
                 if merge_segments and result['successful'] > 0:
                     audio_files = [

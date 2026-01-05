@@ -5,9 +5,10 @@
 - Main entry point: `main.py` (FastAPI app). No existing agent docs or README; add changes here or create `services/` modules for new logic.
 
 ## Quick start / dev workflow 🔧
-- Install deps: `python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt`
-- Run server locally: `uvicorn main:app --reload --port 8000`
+- Install deps: `python3.12 -m venv .venv && source .venv/bin/activate && pip install --upgrade pip && pip install -r requirements.txt`
+- Run server locally: `uvicorn src.main:app --reload --port 8000`
 - Endpoint to exercise: `POST /llm/analyze_chapter`
+- Note: Python 3.12 is required for optimal compatibility with Piper TTS and other dependencies
 
 ## Key files / places to change ⚠️
 - `main.py` — app, Pydantic models and the `analyze_chapter` handler (core pipeline entry point).

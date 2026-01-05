@@ -35,9 +35,14 @@ class PiperTTSProvider(TTSProvider):
         
         Args:
             piper_binary: Unused (kept for compatibility)
-            models_dir: Directory containing piper models (defaults to current directory)
+            models_dir: Directory containing piper models (defaults to ~/.local/share/piper-voices)
         """
-        self.models_dir = models_dir or Path.cwd()
+        if models_dir is None:
+            # Try standard locations
+            models_dir = Path.home() / ".local" / "share" / "piper-voices"
+            if not models_dir.exists():
+                models_dir = Path.cwd()
+        self.models_dir = models_dir
 
     async def synthesize(
         self,
@@ -58,13 +63,26 @@ class PiperTTSProvider(TTSProvider):
         output_path.parent.mkdir(parents=True, exist_ok=True)
         
         try:
-            # Construct full path to model file
-            model_path = Path.cwd() / f"{model_name}.onnx"
+            # Construct full path to model file - check multiple locations
+            model_path = self.models_dir / f"{model_name}.onnx"
             
             if not model_path.exists():
+                # Try current directory as fallback
+                model_path = Path.cwd() / f"{model_name}.onnx"
+            
+            if not model_path.exists():
+                error_msg = (
+                    f"Voice model not found: {model_name}.onnx\n"
+                    f"Searched in: {self.models_dir} and {Path.cwd()}\n"
+                    f"Download with:\n"
+                    f"  mkdir -p ~/.local/share/piper-voices\n"
+                    f"  cd ~/.local/share/piper-voices\n"
+                    f"  wget https://huggingface.co/rhasspy/piper-voices/resolve/main/.../.../{model_name}.onnx\n"
+                    f"  wget https://huggingface.co/rhasspy/piper-voices/resolve/main/.../.../{model_name}.onnx.json"
+                )
                 return {
                     "success": False,
-                    "error": f"Voice model file not found: {model_path}. Download with: python3 -m piper.download_voices {model_name}",
+                    "error": error_msg,
                     "text_length": len(text)
                 }
             
