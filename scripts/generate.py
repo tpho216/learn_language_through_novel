@@ -128,7 +128,7 @@ async def enrich_sentences_parallel(
 
         for attempt in range(1, max_attempts + 1):
             try:
-                resp = await client.post(api_url, json=payload, timeout=60.0)
+                resp = await client.post(api_url, json=payload, timeout=180.0)  # Increased to 3 minutes for complex enrichment
                 if resp.status_code != 200:
                     print(f"⚠️ Enrich failed for sentence {order}: {resp.text}")
                     results[order] = None
@@ -310,6 +310,9 @@ def run(task_path: Path) -> int:
             elif chapter_meta.get("title_vi_ai"):
                 chapter_title_vi = chapter_meta.get("title_vi_ai")
 
+            # Track order counter across all sentences to avoid duplicates
+            next_order = 1
+            
             for scene in out.get("scenes", []):
                 for sentence in scene.get("sentences", []):
                     if "enrichment" in sentence:
@@ -320,6 +323,7 @@ def run(task_path: Path) -> int:
                             "enriched_sentence": dict(enrichment),
                             "chapter_title_zh": chapter_title_zh,
                             "chapter_title_vi": chapter_title_vi,
+                            "start_order": next_order,  # Continue from last segment
                         }
                         # Carry sentence-level translations to TTS payload so they can be segmented
                         if sentence.get("text_vi"):
@@ -341,7 +345,11 @@ def run(task_path: Path) -> int:
                                 print(f"⚠️ TTS preparation failed for sentence {order}: {resp.text}")
                             else:
                                 tts_data = resp.json()
-                                out["tts_segments"].extend(tts_data.get("segments", []))
+                                segments = tts_data.get("segments", [])
+                                out["tts_segments"].extend(segments)
+                                # Update next_order to continue from where we left off
+                                if segments:
+                                    next_order = max(seg["order"] for seg in segments) + 1
                                 print(f"✓ TTS segments generated for sentence {order}")
                         except Exception as e:
                             print(f"⚠️ TTS exception for sentence {order}: {e}")

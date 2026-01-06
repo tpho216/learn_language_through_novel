@@ -21,7 +21,7 @@ class PiperTTSProvider(TTSProvider):
         # Vietnamese voices
         "vi_narrator": "vi_VN-vais1000-medium",
         "vi_teacher": "vi_VN-vais1000-medium",
-        "vi_character": "vi_VN-vivos-x_low",
+        "vi_character": "vi_VN-vais1000-medium",
         
         # English voices
         "en_narrator": "en_US-lessac-medium",

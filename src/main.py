@@ -131,7 +131,9 @@ class WordMeaning(BaseModel):
     pinyin: str
     hanvi: Optional[str] = None
     meaning_vi: str
+    hsk: Optional[str] = None  # HSK level: "HSK 1" to "HSK 6" or "Above HSK"
     used_as_vietnamese_loanword: bool = False
+    already_explained: bool = False  # True if word was explained earlier in this enrichment
 
 
 class PhraseExample(BaseModel):
@@ -149,7 +151,18 @@ class Phrase(BaseModel):
   meaning_vi: Optional[str] = None
   hsk: Optional[Union[int, str]] = None
   use_in_modern_language: bool = False
+  words: Optional[List[WordMeaning]] = None  # Breakdown of compound words in this phrase
   phrase_examples: Optional[List[PhraseExample]] = None
+
+
+class Clause(BaseModel):
+  """A clause within a sentence - a meaningful unit that may contain multiple phrases."""
+  clause_id: str  # e.g., "clause_1", "clause_2"
+  text: str  # The Chinese text of this clause
+  pinyin: str
+  hanvi: Optional[str] = None
+  meaning_vi: str  # Vietnamese translation of this clause
+  phrases: List[Phrase]  # Phrases within this clause
 
 
 class Example(BaseModel):
@@ -163,7 +176,7 @@ class EnrichSentenceResponse(BaseModel):
   order: int
   text_zh: str
   pinyin: str
-  phrases: List[Phrase]
+  clauses: List[Clause]  # Changed from phrases to clauses
   hsk_overall: Optional[Union[int, str]] = None
   examples: List[Example]
   hanzi_explanation: Optional[str] = None
@@ -199,6 +212,8 @@ class PrepareTTSSegmentsRequest(BaseModel):
     lang_cues: Optional[Dict[str, str]] = None
     # Optional field cue overrides, e.g., {"title.zh": {"zh": "标题"}}
     field_cues: Optional[Dict[str, Dict[str, str]]] = None
+    # Starting order number for segments (default 1, increment for multiple sentences)
+    start_order: int = 1
 
 
 class PrepareTTSSegmentsResponse(BaseModel):
@@ -577,25 +592,56 @@ GRAMMAR TEACHING RULES:
 - Keep explanations concise, factual, and instructional.
 - Write as a teacher explaining grammar to a learner.
 
+PHRASE EXTRACTION RULES:
+- First, break the sentence into CLAUSES (meaningful units, often separated by commas or conjunctions).
+- Then, within each clause, extract ALL meaningful phrases and expressions.
+- DO NOT skip phrases - be comprehensive and thorough.
+- For each clause, include:
+  * The clause text, pinyin, Hán Việt, and Vietnamese translation
+  * All phrases within that clause:
+    - Character names and titles (e.g., 乾老魔, 诸位道友)
+    - Verb phrases and actions (e.g., 诧异了起来, 一晃之下)
+    - Descriptive phrases (e.g., 攻击姿态, 戒备的姿态)
+    - Adverbial phrases showing manner/time (e.g., 一晃之下, 蓦然, 重新)
+    - Complete predicate constructions (e.g., 重新回到原处)
+    - Idiomatic expressions and fixed patterns
+- Work through the sentence systematically from beginning to end.
+- If you're unsure whether to include a phrase, INCLUDE IT.
+- Missing important phrases is a critical error.
+
 CONTENT TO PRODUCE:
 For the given Chinese sentence, provide:
-- Pinyin with tone marks
-- Key vocabulary and phrases with:
+- Pinyin with tone marks for the full sentence
+- Break into CLAUSES (meaningful units):
+  - Each clause has: clause_id, text (Chinese), pinyin, hanvi, meaning_vi, and phrases[]
+  - Within each clause, list ALL phrases (comprehensive extraction) with:
   - text: the Chinese phrase
   - pinyin: romanization
   - hanvi: direct Hán Việt reading (if applicable)
   - meaning_vi: Vietnamese meaning
   - hsk: HSK level (1–6 or "Above HSK")
   - use_in_modern_language: boolean indicating if phrase is used in modern Chinese
+  - words: For compound phrases (2+ characters), break down into individual component words:
+    * Each word should have: word, pinyin, hanvi, meaning_vi, hsk, used_as_vietnamese_loanword
+    * Example: "诸位道友" breaks into "诸位" (chư vị) and "道友" (đạo hữu)
+    * Single-character phrases or simple words can omit this field
   - If use_in_modern_language = true:
     - Provide 1-2 example sentences (HSK 1-2 level) using that specific phrase
     - Each example must include: Chinese text, pinyin, Vietnamese translation
-    - For any new words in examples, provide:
-      - word: the Chinese word
-      - pinyin: romanization
-      - hanvi: direct Hán Việt reading (if applicable)
-      - meaning_vi: Vietnamese meaning
-      - used_as_vietnamese_loanword: true if this Hán Việt word is commonly used as a borrowed word in Vietnamese literature/language
+    - For EACH example, you MUST provide a complete word breakdown in "new_words":
+      * Break down the ENTIRE example sentence into ALL component words
+      * For EVERY word in the example (not just new vocabulary):
+        - word: the Chinese word
+        - pinyin: romanization
+        - hanvi: direct Hán Việt reading (if applicable)
+        - meaning_vi: Vietnamese meaning
+        - hsk: HSK level (1–6 or "Above HSK")
+        - used_as_vietnamese_loanword: true if this Hán Việt word is commonly used as a borrowed word in Vietnamese literature/language
+      * Example: For "出了什么事情", break down into: "出了", "什么", "事情"
+      * DO NOT skip any word, even if it seems simple
+      * DO NOT set "already_explained" field - it will be set automatically
+  - If use_in_modern_language = false:
+    - Leave phrase_examples as empty array [] (no examples needed for classical/literary phrases)
 - Hán Việt readings (where applicable)
 - Vietnamese meaning and reasoning
 - HSK level classification (1–6 or "Above HSK")
@@ -614,27 +660,47 @@ Return ONLY valid JSON matching this schema:
   "order": {req.sentence.order},
   "text_zh": "{req.sentence.text_zh}",
   "pinyin": "...",
-  "phrases": [
+  "clauses": [
     {{
+      "clause_id": "clause_1",
       "text": "...",
       "pinyin": "...",
       "hanvi": "...",
       "meaning_vi": "...",
-      "hsk": "Above HSK",
-      "use_in_modern_language": true,
-      "phrase_examples": [
+      "phrases": [
         {{
-          "zh": "...",
+          "text": "...",
           "pinyin": "...",
           "hanvi": "...",
-          "vi": "...",
-          "new_words": [
+          "meaning_vi": "...",
+          "hsk": "Above HSK",
+          "use_in_modern_language": true,
+          "words": [
             {{
               "word": "...",
               "pinyin": "...",
               "hanvi": "...",
               "meaning_vi": "...",
+              "hsk": "HSK 4",
               "used_as_vietnamese_loanword": true
+            }}
+          ],
+          "phrase_examples": [
+            {{
+              "zh": "...",
+              "pinyin": "...",
+              "hanvi": "...",
+              "vi": "...",
+              "new_words": [
+                {{
+                  "word": "...",
+                  "pinyin": "...",
+                  "hanvi": "...",
+                  "meaning_vi": "...",
+                  "hsk": "HSK 3",
+                  "used_as_vietnamese_loanword": true
+                }}
+              ]
             }}
           ]
         }}
@@ -681,6 +747,24 @@ Chinese sentence: {req.sentence.text_zh}
                     "raw_output": raw
                 }
             )
+
+        # Post-process: Track already_explained words programmatically
+        explained_words = set()  # Track words we've seen
+        
+        if "clauses" in data:
+            for clause in data["clauses"]:
+                if "phrases" in clause and clause["phrases"]:
+                    for phrase in clause["phrases"]:
+                        if "phrase_examples" in phrase and phrase["phrase_examples"]:
+                            for example in phrase["phrase_examples"]:
+                                if "new_words" in example and example["new_words"]:
+                                    for word_obj in example["new_words"]:
+                                        word = word_obj.get("word", "")
+                                        if word in explained_words:
+                                            word_obj["already_explained"] = True
+                                        else:
+                                            word_obj["already_explained"] = False
+                                            explained_words.add(word)
 
         return data
 
@@ -760,12 +844,16 @@ async def prepare_tts_segments(req: PrepareTTSSegmentsRequest):
     "sentence.text_vi": {"vi": "Câu tiếng Việt"},
     "sentence.text_vi_ref": {"vi": "Câu tiếng Việt tham khảo"},
     "sentence.text_vi_ai": {"vi": "Câu tiếng Việt AI"},
-    "phrases[].text": {"zh": "词汇"},
-    "phrases[].meaning_vi": {"vi": "Nghĩa tiếng Việt"},
-    "phrases[].phrase_examples[].zh": {"zh": "示例"},
-    "phrases[].phrase_examples[].vi": {"vi": "Ví dụ tiếng Việt"},
-    "phrases[].phrase_examples[].new_words[].word": {"zh": "新词汇"},
-    "phrases[].phrase_examples[].new_words[].meaning_vi": {"vi": "Nghĩa từ mới"},
+    "clauses[].text": {"zh": "分句"},
+    "clauses[].meaning_vi": {"vi": "Nghĩa phân câu"},
+    "clauses[].phrases[].text": {"zh": "词汇"},
+    "clauses[].phrases[].meaning_vi": {"vi": "Nghĩa tiếng Việt"},
+    "clauses[].phrases[].words[].word": {"zh": "组成词"},
+    "clauses[].phrases[].words[].meaning_vi": {"vi": "Nghĩa tổ thành"},
+    "clauses[].phrases[].phrase_examples[].zh": {"zh": "示例"},
+    "clauses[].phrases[].phrase_examples[].vi": {"vi": "Ví dụ tiếng Việt"},
+    "clauses[].phrases[].phrase_examples[].new_words[].word": {"zh": "新词汇"},
+    "clauses[].phrases[].phrase_examples[].new_words[].meaning_vi": {"vi": "Nghĩa từ mới"},
     "examples[].zh": {"zh": "示例"},
     "examples[].vi": {"vi": "Ví dụ tiếng Việt"},
     "hanzi_explanation": {"zh": "汉字解释", "vi": "Giải thích Hán tự"},
@@ -778,7 +866,7 @@ async def prepare_tts_segments(req: PrepareTTSSegmentsRequest):
     return merged.get(field, {}).get(lang, "")
 
   segments: List[TTSSegment] = []
-  order_counter = 1
+  order_counter = req.start_order  # Start from provided order number
   last_lang: Optional[str] = None
   last_field: Optional[str] = None
 
@@ -822,10 +910,14 @@ async def prepare_tts_segments(req: PrepareTTSSegmentsRequest):
     "sentence.text_vi_ref",
     "sentence.text_vi_ai",
     "sentence.text_vi",
-    "phrases[].text",
-    "phrases[].meaning_vi",
-    "phrases[].phrase_examples[].zh",
-    "phrases[].phrase_examples[].vi",
+    "clauses[].text",
+    "clauses[].meaning_vi",
+    "clauses[].phrases[].text",
+    "clauses[].phrases[].meaning_vi",
+    "clauses[].phrases[].words[].word",
+    "clauses[].phrases[].words[].meaning_vi",
+    "clauses[].phrases[].phrase_examples[].zh",
+    "clauses[].phrases[].phrase_examples[].vi",
     "examples[].zh",
     "examples[].vi",
     "hanzi_explanation",
@@ -859,41 +951,70 @@ async def prepare_tts_segments(req: PrepareTTSSegmentsRequest):
     target_field = "sentence.text_vi_ref" if getattr(s, "text_vi_ref", None) else "sentence.text_vi" if getattr(s, "text_vi", None) else "sentence.text_vi_ai"
     add("vi", vi_text, field=target_field, voice="teacher", style="explanatory", pause_ms=600)
 
-  # phrases
-  if hasattr(s, "phrases") and s.phrases:
-    for ph in s.phrases:
-      if "phrases[].text" in sel:
-        meta_phrase = {}
-        if ph.pinyin:
-          meta_phrase["pinyin"] = ph.pinyin
-        if ph.hanvi:
-          meta_phrase["hanvi"] = ph.hanvi
-        add("zh", ph.text, field="phrases[].text", voice="teacher", style="neutral", pause_ms=400, meta=meta_phrase if meta_phrase else None)
-      if "phrases[].meaning_vi" in sel and ph.meaning_vi:
-        add("vi", ph.meaning_vi, field="phrases[].meaning_vi", voice="teacher", style="explanatory", pause_ms=500)
-      if ph.phrase_examples:
-        for ex in ph.phrase_examples:
-          if "phrases[].phrase_examples[].zh" in sel:
-            meta_ex = {}
-            if ex.pinyin:
-              meta_ex["pinyin"] = ex.pinyin
-            if ex.hanvi:
-              meta_ex["hanvi"] = ex.hanvi
-            add("zh", ex.zh, field="phrases[].phrase_examples[].zh", voice="character", style="natural", pause_ms=400, meta=meta_ex if meta_ex else None)
-          if "phrases[].phrase_examples[].vi" in sel and ex.vi:
-            add("vi", ex.vi, field="phrases[].phrase_examples[].vi", voice="character", style="natural", pause_ms=400)
-          # new words within phrase examples
-          if ex.new_words:
-            for nw in ex.new_words:
-              if "phrases[].phrase_examples[].new_words[].word" in sel:
-                meta_nw = {}
-                if nw.pinyin:
-                  meta_nw["pinyin"] = nw.pinyin
-                if nw.hanvi:
-                  meta_nw["hanvi"] = nw.hanvi
-                add("zh", nw.word, field="phrases[].phrase_examples[].new_words[].word", voice="teacher", style="neutral", pause_ms=400, meta=meta_nw if meta_nw else None)
-              if "phrases[].phrase_examples[].new_words[].meaning_vi" in sel and nw.meaning_vi:
-                add("vi", nw.meaning_vi, field="phrases[].phrase_examples[].new_words[].meaning_vi", voice="teacher", style="explanatory", pause_ms=400)
+  # clauses and phrases within clauses
+  if hasattr(s, "clauses") and s.clauses:
+    for cl in s.clauses:
+      # Clause-level text and meaning
+      if "clauses[].text" in sel:
+        meta_clause = {}
+        if cl.pinyin:
+          meta_clause["pinyin"] = cl.pinyin
+        if cl.hanvi:
+          meta_clause["hanvi"] = cl.hanvi
+        add("zh", cl.text, field="clauses[].text", voice="narrator", style="neutral", pause_ms=500, meta=meta_clause if meta_clause else None)
+      if "clauses[].meaning_vi" in sel and cl.meaning_vi:
+        add("vi", cl.meaning_vi, field="clauses[].meaning_vi", voice="teacher", style="explanatory", pause_ms=500)
+      
+      # Phrases within this clause
+      if hasattr(cl, "phrases") and cl.phrases:
+        for ph in cl.phrases:
+          if "clauses[].phrases[].text" in sel:
+            meta_phrase = {}
+            if ph.pinyin:
+              meta_phrase["pinyin"] = ph.pinyin
+            if ph.hanvi:
+              meta_phrase["hanvi"] = ph.hanvi
+            add("zh", ph.text, field="clauses[].phrases[].text", voice="teacher", style="neutral", pause_ms=400, meta=meta_phrase if meta_phrase else None)
+          if "clauses[].phrases[].meaning_vi" in sel and ph.meaning_vi:
+            add("vi", ph.meaning_vi, field="clauses[].phrases[].meaning_vi", voice="teacher", style="explanatory", pause_ms=500)
+          
+          # Compound word breakdown within phrase (words field)
+          if ph.words and "clauses[].phrases[].words[].word" in sel:
+            for word_obj in ph.words:
+              if "clauses[].phrases[].words[].word" in sel:
+                meta_word = {}
+                if word_obj.pinyin:
+                  meta_word["pinyin"] = word_obj.pinyin
+                if word_obj.hanvi:
+                  meta_word["hanvi"] = word_obj.hanvi
+                add("zh", word_obj.word, field="clauses[].phrases[].words[].word", voice="teacher", style="neutral", pause_ms=400, meta=meta_word if meta_word else None)
+              if "clauses[].phrases[].words[].meaning_vi" in sel and word_obj.meaning_vi:
+                add("vi", word_obj.meaning_vi, field="clauses[].phrases[].words[].meaning_vi", voice="teacher", style="explanatory", pause_ms=400)
+          
+          # Phrase examples
+          if ph.phrase_examples:
+            for ex in ph.phrase_examples:
+              if "clauses[].phrases[].phrase_examples[].zh" in sel:
+                meta_ex = {}
+                if ex.pinyin:
+                  meta_ex["pinyin"] = ex.pinyin
+                if ex.hanvi:
+                  meta_ex["hanvi"] = ex.hanvi
+                add("zh", ex.zh, field="clauses[].phrases[].phrase_examples[].zh", voice="character", style="natural", pause_ms=400, meta=meta_ex if meta_ex else None)
+              if "clauses[].phrases[].phrase_examples[].vi" in sel and ex.vi:
+                add("vi", ex.vi, field="clauses[].phrases[].phrase_examples[].vi", voice="character", style="natural", pause_ms=400)
+              # new words within phrase examples
+              if ex.new_words:
+                for nw in ex.new_words:
+                  if "clauses[].phrases[].phrase_examples[].new_words[].word" in sel:
+                    meta_nw = {}
+                    if nw.pinyin:
+                      meta_nw["pinyin"] = nw.pinyin
+                    if nw.hanvi:
+                      meta_nw["hanvi"] = nw.hanvi
+                    add("zh", nw.word, field="clauses[].phrases[].phrase_examples[].new_words[].word", voice="teacher", style="neutral", pause_ms=400, meta=meta_nw if meta_nw else None)
+                  if "clauses[].phrases[].phrase_examples[].new_words[].meaning_vi" in sel and nw.meaning_vi:
+                    add("vi", nw.meaning_vi, field="clauses[].phrases[].phrase_examples[].new_words[].meaning_vi", voice="teacher", style="explanatory", pause_ms=400)
 
   # examples
   if hasattr(s, "examples") and s.examples:

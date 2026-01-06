@@ -32,6 +32,17 @@
   - `SentenceMeta`: `order: int`, `text_zh: str`, `character: str`, `voice: str`
     - NOTE: `voice` currently uses the values `narrator | male | female` in placeholder data.
 
+- Enrichment Structure (Clauses → Phrases):
+  - `EnrichSentenceResponse`: Contains `clauses: List[Clause]`
+  - `Clause`: A meaningful unit within a sentence (often separated by commas/conjunctions)
+    - `clause_id: str`, `text: str`, `pinyin: str`, `hanvi: Optional[str]`, `meaning_vi: str`
+    - `phrases: List[Phrase]` - All phrases within this clause
+  - `Phrase`: A linguistic unit within a clause
+    - `text: str`, `pinyin: str`, `hanvi: Optional[str]`, `meaning_vi: Optional[str]`
+    - `hsk: Optional[Union[int, str]]`, `use_in_modern_language: bool`
+    - `words: Optional[List[WordMeaning]]` - Breakdown of compound words in this phrase
+    - `phrase_examples: Optional[List[PhraseExample]]` - Example sentences using this phrase
+
 ## Concrete LLM work items (copyable instructions) 💡
 When replacing the placeholder in `analyze_chapter` implement the following deterministic steps:
 1. Feed the full chapter (`text_zh`) to the LLM.

@@ -9,7 +9,7 @@
   "enable_enrichment": true,
   "enrich_api_url": "http://localhost:8000/llm/enrich_sentence",
   "enrich_max_concurrent": 10,
-  "max_enrich_sentences": 1,
+  "max_enrich_sentences": 2,
   "prepare_tts_segments": true,
   "tts_api_url": "http://localhost:8000/llm/prepare_tts_segments",
   "synthesize_audio": true,
@@ -24,12 +24,16 @@
     "sentence.text_vi_ref",
     "sentence.text_vi_ai",
     "sentence.text_vi",
-    "phrases[].text",
-    "phrases[].meaning_vi",
-    "phrases[].phrase_examples[].zh",
-    "phrases[].phrase_examples[].vi",
-    "phrases[].phrase_examples[].new_words[].word",
-    "phrases[].phrase_examples[].new_words[].meaning_vi",
+    "clauses[].text",
+    "clauses[].meaning_vi",
+    "clauses[].phrases[].text",
+    "clauses[].phrases[].meaning_vi",
+    "clauses[].phrases[].words[].word",
+    "clauses[].phrases[].words[].meaning_vi",
+    "clauses[].phrases[].phrase_examples[].zh",
+    "clauses[].phrases[].phrase_examples[].vi",
+    "clauses[].phrases[].phrase_examples[].new_words[].word",
+    "clauses[].phrases[].phrase_examples[].new_words[].meaning_vi",
     "examples[].zh",
     "examples[].vi",
     "hanzi_explanation",
@@ -41,21 +45,67 @@
     "en": "English"
   },
   "tts_field_cues": {
-    "title.zh": {"zh": "标题"},
-    "title.vi": {"vi": "Tựa đề"},
-    "sentence.text_zh": {"zh": "原文句子"},
-    "sentence.text_vi": {"vi": "Câu tiếng Việt"},
-    "sentence.text_vi_ref": {"vi": "Câu tiếng Việt tham khảo"},
-    "sentence.text_vi_ai": {"vi": "Câu tiếng Việt AI"},
-    "phrases[].text": {"zh": "词汇"},
-    "phrases[].meaning_vi": {"vi": "Nghĩa tiếng Việt"},
-    "phrases[].phrase_examples[].zh": {"zh": "示例"},
-    "phrases[].phrase_examples[].vi": {"vi": "Ví dụ tiếng Việt"},
-    "phrases[].phrase_examples[].new_words[].word": {"zh": "新词汇"},
-    "phrases[].phrase_examples[].new_words[].meaning_vi": {"vi": "Nghĩa từ mới"},
-    "examples[].zh": {"zh": "示例"},
-    "examples[].vi": {"vi": "Ví dụ tiếng Việt"},
-    "hanzi_explanation": {"zh": "", "vi": "Giải thích Hán tự"},
-    "grammar_explanation": {"zh": "", "vi": "Giải thích ngữ pháp"}
+    "title.zh": {
+      "zh": "标题"
+    },
+    "title.vi": {
+      "vi": "Tựa đề"
+    },
+    "sentence.text_zh": {
+      "zh": "原文句子"
+    },
+    "sentence.text_vi": {
+      "vi": "Câu tiếng Việt"
+    },
+    "sentence.text_vi_ref": {
+      "vi": "Câu tiếng Việt tham khảo"
+    },
+    "sentence.text_vi_ai": {
+      "vi": "Câu tiếng Việt AI"
+    },
+    "clauses[].text": {
+      "zh": "分句"
+    },
+    "clauses[].meaning_vi": {
+      "vi": "Nghĩa phân câu"
+    },
+    "clauses[].phrases[].text": {
+      "zh": "词汇"
+    },
+    "clauses[].phrases[].meaning_vi": {
+      "vi": "Nghĩa tiếng Việt"
+    },
+    "clauses[].phrases[].words[].word": {
+      "zh": "组成词"
+    },
+    "clauses[].phrases[].words[].meaning_vi": {
+      "vi": "Nghĩa tổ thành"
+    },
+    "clauses[].phrases[].phrase_examples[].zh": {
+      "zh": "示例"
+    },
+    "clauses[].phrases[].phrase_examples[].vi": {
+      "vi": "Ví dụ tiếng Việt"
+    },
+    "clauses[].phrases[].phrase_examples[].new_words[].word": {
+      "zh": "新词汇"
+    },
+    "clauses[].phrases[].phrase_examples[].new_words[].meaning_vi": {
+      "vi": "Nghĩa từ mới"
+    },
+    "examples[].zh": {
+      "zh": "示例"
+    },
+    "examples[].vi": {
+      "vi": "Ví dụ tiếng Việt"
+    },
+    "hanzi_explanation": {
+      "zh": "",
+      "vi": "Giải thích Hán tự"
+    },
+    "grammar_explanation": {
+      "zh": "",
+      "vi": "Giải thích ngữ pháp"
+    }
   }
 }
