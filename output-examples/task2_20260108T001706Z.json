@@ -1,0 +1,5249 @@
+{
+  "chapter_id": "1000",
+  "chapter_meta": {
+    "title": null,
+    "title_vi_ref": null,
+    "title_vi_ai": null,
+    "has_narrator": true,
+    "language": "zh"
+  },
+  "scenes": [
+    {
+      "scene_id": "1",
+      "description": "Narrator describes the situation as cultivators escape from the light screen and an ominous feeling arises.",
+      "sentences": [
+        {
+          "order": 1,
+          "text_zh": "因为后边从那光幕中飞遁出来的修士虽然个个狼狈万分，但无一不是元婴期修为，即使老魔再自大，也绝不敢等闲视之的。",
+          "text_vi_ref": "Bởi vì các tu sĩ phi độn ra từ trong quang mạc tuy rằng ai nấy cũng đều chật vật vạn phần, nhưng không một ai không có Nguyên Anh tu vi, cho dù lão ma rất tự đại, cũng tuyệt không dám khinh thường.",
+          "text_vi_ai": "Bởi vì những tu sĩ bay ra khỏi quang màn phía sau tuy ai nấy đều vô cùng chật vật, nhưng không ai là không có tu vi Nguyên Anh kỳ, cho dù lão ma có tự cao đến đâu cũng tuyệt đối không dám xem thường.",
+          "character": "narrator",
+          "voice": "narrator",
+          "is_dialogue": false,
+          "text_vi": "Bởi vì những tu sĩ bay ra khỏi quang màn phía sau tuy ai nấy đều vô cùng chật vật, nhưng không ai là không có tu vi Nguyên Anh kỳ, cho dù lão ma có tự cao đến đâu cũng tuyệt đối không dám xem thường.",
+          "enrichment": {
+            "order": 1,
+            "text_zh": "因为后边从那光幕中飞遁出来的修士虽然个个狼狈万分，但无一不是元婴期修为，即使老魔再自大，也绝不敢等闲视之的。",
+            "pinyin": "Yīnwèi hòubiān cóng nà guāngmù zhōng fēidùn chūlái de xiūshì suīrán gège lángbèi wànfēn, dàn wú yī bùshì yuányīngqī xiūwéi, jíshǐ lǎomó zài zìdà, yě jué bù gǎn děngxián shì zhī de.",
+            "clauses": [
+              {
+                "clause_id": "clause_1",
+                "text": "因为后边从那光幕中飞遁出来的修士",
+                "pinyin": "Yīnwèi hòubiān cóng nà guāngmù zhōng fēidùn chūlái de xiūshì",
+                "hanvi": "Nhân vi hậu biên tòng nã quang mạc trung phi độn xuất lai đích tu sĩ",
+                "meaning_vi": "Bởi vì những tu sĩ (bay ra) từ trong quang màn phía sau",
+                "phrases": [
+                  {
+                    "text": "因为",
+                    "pinyin": "yīnwèi",
+                    "hanvi": "nhân vi",
+                    "meaning_vi": "bởi vì",
+                    "hsk": "HSK 2",
+                    "use_in_modern_language": true,
+                    "words": null,
+                    "phrase_examples": [
+                      {
+                        "zh": "因为我很忙。",
+                        "pinyin": "Yīnwèi wǒ hěn máng.",
+                        "hanvi": "Nhân vi ngã rất mang.",
+                        "vi": "Bởi vì tôi rất bận.",
+                        "new_words": [
+                          {
+                            "word": "因为",
+                            "pinyin": "yīnwèi",
+                            "hanvi": "nhân vi",
+                            "meaning_vi": "bởi vì",
+                            "hsk": "HSK 2",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "我",
+                            "pinyin": "wǒ",
+                            "hanvi": "ngã",
+                            "meaning_vi": "tôi",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "很",
+                            "pinyin": "hěn",
+                            "hanvi": "ngận",
+                            "meaning_vi": "rất",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "忙",
+                            "pinyin": "máng",
+                            "hanvi": "mang",
+                            "meaning_vi": "bận",
+                            "hsk": "HSK 2",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "text": "后边",
+                    "pinyin": "hòubiān",
+                    "hanvi": "hậu biên",
+                    "meaning_vi": "phía sau",
+                    "hsk": "HSK 3",
+                    "use_in_modern_language": true,
+                    "words": null,
+                    "phrase_examples": [
+                      {
+                        "zh": "他在后边。",
+                        "pinyin": "Tā zài hòubiān.",
+                        "hanvi": "Tha tại hậu biên.",
+                        "vi": "Anh ấy ở phía sau.",
+                        "new_words": [
+                          {
+                            "word": "他",
+                            "pinyin": "tā",
+                            "hanvi": "tha",
+                            "meaning_vi": "anh ấy",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "在",
+                            "pinyin": "zài",
+                            "hanvi": "tại",
+                            "meaning_vi": "ở",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "后边",
+                            "pinyin": "hòubiān",
+                            "hanvi": "hậu biên",
+                            "meaning_vi": "phía sau",
+                            "hsk": "HSK 3",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "text": "从那光幕中",
+                    "pinyin": "cóng nà guāngmù zhōng",
+                    "hanvi": "tòng nã quang mạc trung",
+                    "meaning_vi": "từ trong quang màn đó",
+                    "hsk": "Above HSK",
+                    "use_in_modern_language": false,
+                    "words": [
+                      {
+                        "word": "从",
+                        "pinyin": "cóng",
+                        "hanvi": "tòng",
+                        "meaning_vi": "từ",
+                        "hsk": "HSK 3",
+                        "used_as_vietnamese_loanword": false,
+                        "already_explained": false
+                      },
+                      {
+                        "word": "那",
+                        "pinyin": "nà",
+                        "hanvi": "nã",
+                        "meaning_vi": "đó",
+                        "hsk": "HSK 1",
+                        "used_as_vietnamese_loanword": false,
+                        "already_explained": false
+                      },
+                      {
+                        "word": "光幕",
+                        "pinyin": "guāngmù",
+                        "hanvi": "quang mạc",
+                        "meaning_vi": "màn sáng",
+                        "hsk": "Above HSK",
+                        "used_as_vietnamese_loanword": false,
+                        "already_explained": false
+                      },
+                      {
+                        "word": "中",
+                        "pinyin": "zhōng",
+                        "hanvi": "trung",
+                        "meaning_vi": "ở trong",
+                        "hsk": "HSK 1",
+                        "used_as_vietnamese_loanword": true,
+                        "already_explained": false
+                      }
+                    ],
+                    "phrase_examples": []
+                  },
+                  {
+                    "text": "飞遁出来",
+                    "pinyin": "fēidùn chūlái",
+                    "hanvi": "phi độn xuất lai",
+                    "meaning_vi": "bay trốn ra",
+                    "hsk": "Above HSK",
+                    "use_in_modern_language": false,
+                    "words": [
+                      {
+                        "word": "飞",
+                        "pinyin": "fēi",
+                        "hanvi": "phi",
+                        "meaning_vi": "bay",
+                        "hsk": "HSK 1",
+                        "used_as_vietnamese_loanword": true,
+                        "already_explained": false
+                      },
+                      {
+                        "word": "遁",
+                        "pinyin": "dùn",
+                        "hanvi": "độn",
+                        "meaning_vi": "trốn, ẩn, độn",
+                        "hsk": "Above HSK",
+                        "used_as_vietnamese_loanword": true,
+                        "already_explained": false
+                      },
+                      {
+                        "word": "出来",
+                        "pinyin": "chūlái",
+                        "hanvi": "xuất lai",
+                        "meaning_vi": "ra ngoài",
+                        "hsk": "HSK 2",
+                        "used_as_vietnamese_loanword": false,
+                        "already_explained": false
+                      }
+                    ],
+                    "phrase_examples": []
+                  },
+                  {
+                    "text": "修士",
+                    "pinyin": "xiūshì",
+                    "hanvi": "tu sĩ",
+                    "meaning_vi": "tu sĩ",
+                    "hsk": "Above HSK",
+                    "use_in_modern_language": false,
+                    "words": [
+                      {
+                        "word": "修",
+                        "pinyin": "xiū",
+                        "hanvi": "tu",
+                        "meaning_vi": "tu, sửa",
+                        "hsk": "HSK 4",
+                        "used_as_vietnamese_loanword": true,
+                        "already_explained": false
+                      },
+                      {
+                        "word": "士",
+                        "pinyin": "shì",
+                        "hanvi": "sĩ",
+                        "meaning_vi": "trí thức, sĩ",
+                        "hsk": "Above HSK",
+                        "used_as_vietnamese_loanword": true,
+                        "already_explained": false
+                      }
+                    ],
+                    "phrase_examples": []
+                  }
+                ]
+              },
+              {
+                "clause_id": "clause_2",
+                "text": "虽然个个狼狈万分",
+                "pinyin": "suīrán gège lángbèi wànfēn",
+                "hanvi": "Tuy nhiên cá cá lang bệ vạn phân",
+                "meaning_vi": "Tuy ai nấy đều vô cùng chật vật/khốn đốn",
+                "phrases": [
+                  {
+                    "text": "虽然",
+                    "pinyin": "suīrán",
+                    "hanvi": "tuy nhiên",
+                    "meaning_vi": "tuy rằng",
+                    "hsk": "HSK 3",
+                    "use_in_modern_language": true,
+                    "words": null,
+                    "phrase_examples": [
+                      {
+                        "zh": "虽然下雨了，但我还是去。",
+                        "pinyin": "Suīrán xià yǔ le, dàn wǒ háishi qù.",
+                        "hanvi": "Tuy nhiên hạ vũ liễu, đãn ngã hoàn thị khứ.",
+                        "vi": "Tuy trời mưa, nhưng tôi vẫn đi.",
+                        "new_words": [
+                          {
+                            "word": "虽然",
+                            "pinyin": "suīrán",
+                            "hanvi": "tuy nhiên",
+                            "meaning_vi": "tuy rằng",
+                            "hsk": "HSK 3",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "下雨",
+                            "pinyin": "xià yǔ",
+                            "hanvi": "hạ vũ",
+                            "meaning_vi": "mưa",
+                            "hsk": "HSK 2",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "了",
+                            "pinyin": "le",
+                            "hanvi": "liễu",
+                            "meaning_vi": "(trợ từ động thái)",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "但",
+                            "pinyin": "dàn",
+                            "hanvi": "đãn",
+                            "meaning_vi": "nhưng",
+                            "hsk": "HSK 3",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "我",
+                            "pinyin": "wǒ",
+                            "hanvi": "ngã",
+                            "meaning_vi": "tôi",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": true
+                          },
+                          {
+                            "word": "还是",
+                            "pinyin": "háishi",
+                            "hanvi": "hoàn thị",
+                            "meaning_vi": "vẫn",
+                            "hsk": "HSK 2",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "去",
+                            "pinyin": "qù",
+                            "hanvi": "khứ",
+                            "meaning_vi": "đi",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "text": "个个",
+                    "pinyin": "gège",
+                    "hanvi": "cá cá",
+                    "meaning_vi": "ai nấy, từng người một",
+                    "hsk": "HSK 5",
+                    "use_in_modern_language": true,
+                    "words": null,
+                    "phrase_examples": [
+                      {
+                        "zh": "我们个个都喜欢学习。",
+                        "pinyin": "Wǒmen gège dōu xǐhuan xuéxí.",
+                        "hanvi": "Ngã môn cá cá đều hỷ hoan học tập.",
+                        "vi": "Mỗi người chúng tôi đều thích học.",
+                        "new_words": [
+                          {
+                            "word": "我们",
+                            "pinyin": "wǒmen",
+                            "hanvi": "ngã môn",
+                            "meaning_vi": "chúng tôi",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "个个",
+                            "pinyin": "gège",
+                            "hanvi": "cá cá",
+                            "meaning_vi": "ai nấy",
+                            "hsk": "HSK 5",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "都",
+                            "pinyin": "dōu",
+                            "hanvi": "đô",
+                            "meaning_vi": "đều",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "喜欢",
+                            "pinyin": "xǐhuan",
+                            "hanvi": "hỷ hoan",
+                            "meaning_vi": "thích",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "学习",
+                            "pinyin": "xuéxí",
+                            "hanvi": "học tập",
+                            "meaning_vi": "học",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "text": "狼狈万分",
+                    "pinyin": "lángbèi wànfēn",
+                    "hanvi": "lang bệ vạn phân",
+                    "meaning_vi": "vô cùng chật vật, cực kỳ khốn đốn",
+                    "hsk": "Above HSK",
+                    "use_in_modern_language": true,
+                    "words": [
+                      {
+                        "word": "狼狈",
+                        "pinyin": "lángbèi",
+                        "hanvi": "lang bệ",
+                        "meaning_vi": "chật vật; thảm hại",
+                        "hsk": "HSK 6",
+                        "used_as_vietnamese_loanword": false,
+                        "already_explained": false
+                      },
+                      {
+                        "word": "万分",
+                        "pinyin": "wànfēn",
+                        "hanvi": "vạn phân",
+                        "meaning_vi": "vô cùng",
+                        "hsk": "HSK 6",
+                        "used_as_vietnamese_loanword": false,
+                        "already_explained": false
+                      }
+                    ],
+                    "phrase_examples": [
+                      {
+                        "zh": "他昨天狼狈万分。",
+                        "pinyin": "Tā zuótiān lángbèi wànfēn.",
+                        "hanvi": "Tha tạc thiên lang bệ vạn phân.",
+                        "vi": "Hôm qua anh ấy cực kỳ chật vật.",
+                        "new_words": [
+                          {
+                            "word": "他",
+                            "pinyin": "tā",
+                            "hanvi": "tha",
+                            "meaning_vi": "anh ấy",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": true
+                          },
+                          {
+                            "word": "昨天",
+                            "pinyin": "zuótiān",
+                            "hanvi": "tạc thiên",
+                            "meaning_vi": "hôm qua",
+                            "hsk": "HSK 2",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "狼狈",
+                            "pinyin": "lángbèi",
+                            "hanvi": "lang bệ",
+                            "meaning_vi": "chật vật",
+                            "hsk": "HSK 6",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "万分",
+                            "pinyin": "wànfēn",
+                            "hanvi": "vạn phân",
+                            "meaning_vi": "vô cùng",
+                            "hsk": "HSK 6",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "clause_id": "clause_3",
+                "text": "但无一不是元婴期修为",
+                "pinyin": "dàn wú yī bù shì yuányīngqī xiūwéi",
+                "hanvi": "Đãn vô nhất bất thị Nguyên Anh kỳ tu vi",
+                "meaning_vi": "nhưng không một ai không có tu vi Nguyên Anh kỳ",
+                "phrases": [
+                  {
+                    "text": "但",
+                    "pinyin": "dàn",
+                    "hanvi": "đãn",
+                    "meaning_vi": "nhưng",
+                    "hsk": "HSK 3",
+                    "use_in_modern_language": true,
+                    "words": null,
+                    "phrase_examples": [
+                      {
+                        "zh": "想去，但没时间。",
+                        "pinyin": "Xiǎng qù, dàn méi shíjiān.",
+                        "hanvi": "Tưởng khứ, đãn một thì gian.",
+                        "vi": "Muốn đi, nhưng không có thời gian.",
+                        "new_words": [
+                          {
+                            "word": "想",
+                            "pinyin": "xiǎng",
+                            "hanvi": "tưởng",
+                            "meaning_vi": "muốn",
+                            "hsk": "HSK 2",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "去",
+                            "pinyin": "qù",
+                            "hanvi": "khứ",
+                            "meaning_vi": "đi",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": true
+                          },
+                          {
+                            "word": "但",
+                            "pinyin": "dàn",
+                            "hanvi": "đãn",
+                            "meaning_vi": "nhưng",
+                            "hsk": "HSK 3",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": true
+                          },
+                          {
+                            "word": "没",
+                            "pinyin": "méi",
+                            "hanvi": "một",
+                            "meaning_vi": "không có",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "时间",
+                            "pinyin": "shíjiān",
+                            "hanvi": "thời gian",
+                            "meaning_vi": "thời gian",
+                            "hsk": "HSK 2",
+                            "used_as_vietnamese_loanword": true,
+                            "already_explained": false
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "text": "无一不是",
+                    "pinyin": "wú yī bù shì",
+                    "hanvi": "vô nhất bất thị",
+                    "meaning_vi": "không một ai không phải; ai cũng đều là",
+                    "hsk": "Above HSK",
+                    "use_in_modern_language": false,
+                    "words": [
+                      {
+                        "word": "无",
+                        "pinyin": "wú",
+                        "hanvi": "vô",
+                        "meaning_vi": "không",
+                        "hsk": "Above HSK",
+                        "used_as_vietnamese_loanword": true,
+                        "already_explained": false
+                      },
+                      {
+                        "word": "一",
+                        "pinyin": "yī",
+                        "hanvi": "nhất",
+                        "meaning_vi": "một",
+                        "hsk": "HSK 1",
+                        "used_as_vietnamese_loanword": true,
+                        "already_explained": false
+                      },
+                      {
+                        "word": "不",
+                        "pinyin": "bù",
+                        "hanvi": "bất",
+                        "meaning_vi": "không",
+                        "hsk": "HSK 1",
+                        "used_as_vietnamese_loanword": true,
+                        "already_explained": false
+                      },
+                      {
+                        "word": "是",
+                        "pinyin": "shì",
+                        "hanvi": "thị",
+                        "meaning_vi": "là",
+                        "hsk": "HSK 1",
+                        "used_as_vietnamese_loanword": true,
+                        "already_explained": false
+                      }
+                    ],
+                    "phrase_examples": []
+                  },
+                  {
+                    "text": "元婴期修为",
+                    "pinyin": "yuányīngqī xiūwéi",
+                    "hanvi": "Nguyên Anh kỳ tu vi",
+                    "meaning_vi": "tu vi Nguyên Anh kỳ",
+                    "hsk": "Above HSK",
+                    "use_in_modern_language": false,
+                    "words": [
+                      {
+                        "word": "元婴期",
+                        "pinyin": "yuányīngqī",
+                        "hanvi": "Nguyên Anh kỳ",
+                        "meaning_vi": "kỳ Nguyên Anh (một giai đoạn tu luyện giả trong truyện tiên hiệp)",
+                        "hsk": "Above HSK",
+                        "used_as_vietnamese_loanword": true,
+                        "already_explained": false
+                      },
+                      {
+                        "word": "修为",
+                        "pinyin": "xiūwéi",
+                        "hanvi": "tu vi",
+                        "meaning_vi": "tu vi",
+                        "hsk": "Above HSK",
+                        "used_as_vietnamese_loanword": true,
+                        "already_explained": false
+                      }
+                    ],
+                    "phrase_examples": []
+                  }
+                ]
+              },
+              {
+                "clause_id": "clause_4",
+                "text": "即使老魔再自大，也绝不敢等闲视之的",
+                "pinyin": "jíshǐ lǎomó zài zìdà, yě jué bù gǎn děngxián shì zhī de",
+                "hanvi": "Tức sử lão ma tái tự đại, dã tuyệt bất cảm đẳng nhàn thị chi đích",
+                "meaning_vi": "dù lão ma có tự cao đến đâu cũng tuyệt đối không dám xem thường",
+                "phrases": [
+                  {
+                    "text": "即使",
+                    "pinyin": "jíshǐ",
+                    "hanvi": "tức sử",
+                    "meaning_vi": "dù cho, cho dù",
+                    "hsk": "HSK 4",
+                    "use_in_modern_language": true,
+                    "words": null,
+                    "phrase_examples": [
+                      {
+                        "zh": "即使下雨，我也去。",
+                        "pinyin": "Jíshǐ xià yǔ, wǒ yě qù.",
+                        "hanvi": "Tức sử hạ vũ, ngã dã khứ.",
+                        "vi": "Dù mưa, tôi vẫn đi.",
+                        "new_words": [
+                          {
+                            "word": "即使",
+                            "pinyin": "jíshǐ",
+                            "hanvi": "tức sử",
+                            "meaning_vi": "dù cho",
+                            "hsk": "HSK 4",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "下雨",
+                            "pinyin": "xià yǔ",
+                            "hanvi": "hạ vũ",
+                            "meaning_vi": "mưa",
+                            "hsk": "HSK 2",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": true
+                          },
+                          {
+                            "word": "我",
+                            "pinyin": "wǒ",
+                            "hanvi": "ngã",
+                            "meaning_vi": "tôi",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": true
+                          },
+                          {
+                            "word": "也",
+                            "pinyin": "yě",
+                            "hanvi": "dã",
+                            "meaning_vi": "cũng",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "去",
+                            "pinyin": "qù",
+                            "hanvi": "khứ",
+                            "meaning_vi": "đi",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": true
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "text": "老魔",
+                    "pinyin": "lǎomó",
+                    "hanvi": "lão ma",
+                    "meaning_vi": "lão ma (ma đầu già, kẻ xấu già)",
+                    "hsk": "Above HSK",
+                    "use_in_modern_language": false,
+                    "words": [
+                      {
+                        "word": "老",
+                        "pinyin": "lǎo",
+                        "hanvi": "lão",
+                        "meaning_vi": "già",
+                        "hsk": "HSK 1",
+                        "used_as_vietnamese_loanword": true,
+                        "already_explained": false
+                      },
+                      {
+                        "word": "魔",
+                        "pinyin": "mó",
+                        "hanvi": "ma",
+                        "meaning_vi": "ma",
+                        "hsk": "HSK 5",
+                        "used_as_vietnamese_loanword": true,
+                        "already_explained": false
+                      }
+                    ],
+                    "phrase_examples": []
+                  },
+                  {
+                    "text": "再自大",
+                    "pinyin": "zài zìdà",
+                    "hanvi": "tái tự đại",
+                    "meaning_vi": "(có) tự cao đến đâu",
+                    "hsk": "Above HSK",
+                    "use_in_modern_language": true,
+                    "words": [
+                      {
+                        "word": "再",
+                        "pinyin": "zài",
+                        "hanvi": "tái",
+                        "meaning_vi": "lại, nữa, đến mức",
+                        "hsk": "HSK 2",
+                        "used_as_vietnamese_loanword": true,
+                        "already_explained": false
+                      },
+                      {
+                        "word": "自大",
+                        "pinyin": "zìdà",
+                        "hanvi": "tự đại",
+                        "meaning_vi": "tự cao",
+                        "hsk": "HSK 6",
+                        "used_as_vietnamese_loanword": true,
+                        "already_explained": false
+                      }
+                    ],
+                    "phrase_examples": [
+                      {
+                        "zh": "他很自大。",
+                        "pinyin": "Tā hěn zìdà.",
+                        "hanvi": "Tha ngận tự đại.",
+                        "vi": "Anh ấy rất tự cao.",
+                        "new_words": [
+                          {
+                            "word": "他",
+                            "pinyin": "tā",
+                            "hanvi": "tha",
+                            "meaning_vi": "anh ấy",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": true
+                          },
+                          {
+                            "word": "很",
+                            "pinyin": "hěn",
+                            "hanvi": "ngận",
+                            "meaning_vi": "rất",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": true
+                          },
+                          {
+                            "word": "自大",
+                            "pinyin": "zìdà",
+                            "hanvi": "tự đại",
+                            "meaning_vi": "tự cao",
+                            "hsk": "HSK 6",
+                            "used_as_vietnamese_loanword": true,
+                            "already_explained": false
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "text": "也绝不敢",
+                    "pinyin": "yě jué bù gǎn",
+                    "hanvi": "dã tuyệt bất cảm",
+                    "meaning_vi": "cũng tuyệt đối không dám",
+                    "hsk": "Above HSK",
+                    "use_in_modern_language": true,
+                    "words": [
+                      {
+                        "word": "也",
+                        "pinyin": "yě",
+                        "hanvi": "dã",
+                        "meaning_vi": "cũng",
+                        "hsk": "HSK 1",
+                        "used_as_vietnamese_loanword": false,
+                        "already_explained": false
+                      },
+                      {
+                        "word": "绝不",
+                        "pinyin": "juébù",
+                        "hanvi": "tuyệt bất",
+                        "meaning_vi": "tuyệt đối không",
+                        "hsk": "HSK 4",
+                        "used_as_vietnamese_loanword": true,
+                        "already_explained": false
+                      },
+                      {
+                        "word": "敢",
+                        "pinyin": "gǎn",
+                        "hanvi": "cảm",
+                        "meaning_vi": "dám",
+                        "hsk": "HSK 3",
+                        "used_as_vietnamese_loanword": true,
+                        "already_explained": false
+                      }
+                    ],
+                    "phrase_examples": [
+                      {
+                        "zh": "她绝不敢说谎。",
+                        "pinyin": "Tā jué bù gǎn shuōhuǎng.",
+                        "hanvi": "Tha tuyệt bất cảm thuyết hoang.",
+                        "vi": "Cô ấy tuyệt đối không dám nói dối.",
+                        "new_words": [
+                          {
+                            "word": "她",
+                            "pinyin": "tā",
+                            "hanvi": "tha",
+                            "meaning_vi": "cô ấy",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "绝不",
+                            "pinyin": "juébù",
+                            "hanvi": "tuyệt bất",
+                            "meaning_vi": "tuyệt đối không",
+                            "hsk": "HSK 4",
+                            "used_as_vietnamese_loanword": true,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "敢",
+                            "pinyin": "gǎn",
+                            "hanvi": "cảm",
+                            "meaning_vi": "dám",
+                            "hsk": "HSK 3",
+                            "used_as_vietnamese_loanword": true,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "说谎",
+                            "pinyin": "shuōhuǎng",
+                            "hanvi": "thuyết hoang",
+                            "meaning_vi": "nói dối",
+                            "hsk": "HSK 5",
+                            "used_as_vietnamese_loanword": true,
+                            "already_explained": false
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "text": "等闲视之",
+                    "pinyin": "děngxián shì zhī",
+                    "hanvi": "đẳng nhàn thị chi",
+                    "meaning_vi": "xem thường, coi là chuyện thường",
+                    "hsk": "Above HSK",
+                    "use_in_modern_language": false,
+                    "words": [
+                      {
+                        "word": "等闲",
+                        "pinyin": "děngxián",
+                        "hanvi": "đẳng nhàn",
+                        "meaning_vi": "thường tình, tầm thường",
+                        "hsk": "Above HSK",
+                        "used_as_vietnamese_loanword": false,
+                        "already_explained": false
+                      },
+                      {
+                        "word": "视",
+                        "pinyin": "shì",
+                        "hanvi": "thị",
+                        "meaning_vi": "xem, coi",
+                        "hsk": "HSK 4",
+                        "used_as_vietnamese_loanword": true,
+                        "already_explained": false
+                      },
+                      {
+                        "word": "之",
+                        "pinyin": "zhī",
+                        "hanvi": "chi",
+                        "meaning_vi": "(nó, chỉ đối tượng nhắc đến trước đó)",
+                        "hsk": "Above HSK",
+                        "used_as_vietnamese_loanword": true,
+                        "already_explained": false
+                      }
+                    ],
+                    "phrase_examples": []
+                  }
+                ]
+              }
+            ],
+            "hsk_overall": "Above HSK",
+            "examples": [
+              {
+                "zh": "因为后边从那光幕中飞遁出来的修士虽然个个狼狈万分，但无一不是元婴期修为。",
+                "pinyin": "Yīnwèi hòubiān cóng nà guāngmù zhōng fēidùn chūlái de xiūshì suīrán gège lángbèi wànfēn, dàn wú yī bù shì yuányīngqī xiūwéi.",
+                "hanvi": "Nhân vi hậu biên tòng nã quang mạc trung phi độn xuất lai đích tu sĩ tuy nhiên cá cá lang bệ vạn phân, đãn vô nhất bất thị Nguyên Anh kỳ tu vi.",
+                "vi": "Bởi vì những tu sĩ bay ra khỏi quang màn phía sau tuy ai nấy đều vô cùng chật vật, nhưng không ai là không có tu vi Nguyên Anh kỳ."
+              },
+              {
+                "zh": "即使老魔再自大，也绝不敢等闲视之的。",
+                "pinyin": "Jíshǐ lǎomó zài zìdà, yě jué bù gǎn děngxián shì zhī de.",
+                "hanvi": "Tức sử lão ma tái tự đại, dã tuyệt bất cảm đẳng nhàn thị chi đích.",
+                "vi": "Cho dù lão ma có tự cao đến đâu cũng tuyệt đối không dám xem thường."
+              }
+            ],
+            "hanzi_explanation": "Các từ chính trong câu này đều là những từ được dùng nhiều trong ngữ cảnh tiên hiệp/tu chân; \"元婴期\" (Nguyên Anh kỳ) và \"修为\" (tu vi) là những thuật ngữ tôn giáo/luyện khí, chỉ cảnh giới tu luyện trong truyện. \"等闲视之\" là thành ngữ cổ, hiếm dùng trong tiếng Trung hiện đại.",
+            "grammar_explanation": "Câu này gồm nhiều mệnh đề liên kết bằng các liên từ và kết cấu phức tạp. Bắt đầu với \"因为\" (bởi vì) dùng mở đầu lý do, theo sau là một mệnh đề quan hệ \"从……出来的修士\" (những tu sĩ bay ra từ...), trong đó động từ ghép \"飞遁出来\" thể hiện hành động. Phần \"虽然..., 但...\" là cấu trúc đối lập tiêu chuẩn, trình bày sự tương phản. \"无一不是...\" là mẫu phủ định kép mang nghĩa nhấn mạnh sự tuyệt đối (không ai là không ...), có sắc thái trang trọng, cổ điển. \"即使...也...\" nhấn mạnh khả năng nhượng bộ cực đoan, \"也绝不敢等闲视之的\" là dạng tăng cường phủ định, với \"等闲视之\" là thành ngữ cổ. Toàn bộ cấu trúc thể hiện rõ phong cách văn học/xianxia: từ vựng cấp cao, nhiều thuật ngữ, mẫu cú pháp nhấn mạnh và thành ngữ cổ. Để dịch tự nhiên sang tiếng Việt, cần chuyển đổi cấu trúc phức hợp sang các mệnh đề phụ thuộc, đồng thời chú ý giữ được ý nghĩa nhấn mạnh của phủ định kép và các thuật ngữ chuyên ngành.",
+            "text_vi": null,
+            "text_vi_ref": null,
+            "text_vi_ai": null
+          }
+        },
+        {
+          "order": 2,
+          "text_zh": "更何况刚才光幕中传来的爆裂声，更让他隐隐有种不好的预感。",
+          "text_vi_ref": "Huống chi vừa rồi trong quang mạc truyền đến những âm thanh bạo liệt, càng khiến hắn có chút dự cảm không hay.",
+          "text_vi_ai": "Huống chi vừa rồi trong quang màn truyền đến tiếng nổ vang, lại càng khiến hắn mơ hồ có một dự cảm không lành.",
+          "character": "narrator",
+          "voice": "narrator",
+          "is_dialogue": false,
+          "text_vi": "Huống chi vừa rồi trong quang màn truyền đến tiếng nổ vang, lại càng khiến hắn mơ hồ có một dự cảm không lành.",
+          "enrichment": {
+            "order": 2,
+            "text_zh": "更何况刚才光幕中传来的爆裂声，更让他隐隐有种不好的预感。",
+            "pinyin": "Gèng hékuàng gāngcái guāngmù zhōng chuán lái de bàoliè shēng, gèng ràng tā yǐnyǐn yǒu zhǒng bù hǎo de yùgǎn.",
+            "clauses": [
+              {
+                "clause_id": "clause_1",
+                "text": "更何况刚才光幕中传来的爆裂声",
+                "pinyin": "Gèng hékuàng gāngcái guāngmù zhōng chuán lái de bàoliè shēng",
+                "hanvi": "Cánh hà huống cương tài quang mạc trung truyền lai đích bạo liệt thanh",
+                "meaning_vi": "Huống chi vừa rồi tiếng nổ vang từ trong quang màn truyền đến",
+                "phrases": [
+                  {
+                    "text": "更何况",
+                    "pinyin": "gèng hékuàng",
+                    "hanvi": "cánh hà huống",
+                    "meaning_vi": "huống chi, hơn nữa",
+                    "hsk": "Above HSK",
+                    "use_in_modern_language": true,
+                    "words": [
+                      {
+                        "word": "更",
+                        "pinyin": "gèng",
+                        "hanvi": "cánh",
+                        "meaning_vi": "càng, hơn nữa",
+                        "hsk": "HSK 3",
+                        "used_as_vietnamese_loanword": false,
+                        "already_explained": false
+                      },
+                      {
+                        "word": "何况",
+                        "pinyin": "hékuàng",
+                        "hanvi": "hà huống",
+                        "meaning_vi": "huống chi",
+                        "hsk": "HSK 5",
+                        "used_as_vietnamese_loanword": true,
+                        "already_explained": false
+                      }
+                    ],
+                    "phrase_examples": [
+                      {
+                        "zh": "天气冷，我都觉得冷，更何况你呢？",
+                        "pinyin": "Tiānqì lěng, wǒ dōu juéde lěng, gèng hékuàng nǐ ne?",
+                        "hanvi": "Thiên khí lãnh, ngã đô giác đắc lãnh, cánh hà huống nhĩ ne?",
+                        "vi": "Trời lạnh, ngay cả tôi cũng thấy lạnh, huống chi là bạn?",
+                        "new_words": [
+                          {
+                            "word": "天气",
+                            "pinyin": "tiānqì",
+                            "hanvi": "thiên khí",
+                            "meaning_vi": "thời tiết",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": true,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "冷",
+                            "pinyin": "lěng",
+                            "hanvi": "lãnh",
+                            "meaning_vi": "lạnh",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": true,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "我",
+                            "pinyin": "wǒ",
+                            "hanvi": "ngã",
+                            "meaning_vi": "tôi",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "都",
+                            "pinyin": "dōu",
+                            "hanvi": "đô",
+                            "meaning_vi": "đều",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "觉得",
+                            "pinyin": "juéde",
+                            "hanvi": "giác đắc",
+                            "meaning_vi": "cảm thấy",
+                            "hsk": "HSK 3",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "更何况",
+                            "pinyin": "gèng hékuàng",
+                            "hanvi": "cánh hà huống",
+                            "meaning_vi": "huống chi",
+                            "hsk": "Above HSK",
+                            "used_as_vietnamese_loanword": true,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "你",
+                            "pinyin": "nǐ",
+                            "hanvi": "nhĩ",
+                            "meaning_vi": "bạn",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "text": "刚才",
+                    "pinyin": "gāngcái",
+                    "hanvi": "cương tài",
+                    "meaning_vi": "vừa rồi, ban nãy",
+                    "hsk": "HSK 3",
+                    "use_in_modern_language": true,
+                    "words": null,
+                    "phrase_examples": [
+                      {
+                        "zh": "他刚才在这里。",
+                        "pinyin": "Tā gāngcái zài zhèlǐ.",
+                        "hanvi": "Tha cương tài tại giá lý.",
+                        "vi": "Anh ấy vừa ở đây.",
+                        "new_words": [
+                          {
+                            "word": "他",
+                            "pinyin": "tā",
+                            "hanvi": "tha",
+                            "meaning_vi": "anh ấy",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "刚才",
+                            "pinyin": "gāngcái",
+                            "hanvi": "cương tài",
+                            "meaning_vi": "vừa rồi",
+                            "hsk": "HSK 3",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "在",
+                            "pinyin": "zài",
+                            "hanvi": "tại",
+                            "meaning_vi": "ở",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "这里",
+                            "pinyin": "zhèlǐ",
+                            "hanvi": "giá lý",
+                            "meaning_vi": "ở đây",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "text": "光幕中传来的爆裂声",
+                    "pinyin": "guāngmù zhōng chuán lái de bàoliè shēng",
+                    "hanvi": "quang mạc trung truyền lai đích bạo liệt thanh",
+                    "meaning_vi": "tiếng nổ vang truyền tới từ trong quang màn",
+                    "hsk": "Above HSK",
+                    "use_in_modern_language": false,
+                    "words": [
+                      {
+                        "word": "光幕",
+                        "pinyin": "guāngmù",
+                        "hanvi": "quang mạc",
+                        "meaning_vi": "màn ánh sáng",
+                        "hsk": "Above HSK",
+                        "used_as_vietnamese_loanword": false,
+                        "already_explained": false
+                      },
+                      {
+                        "word": "中",
+                        "pinyin": "zhōng",
+                        "hanvi": "trung",
+                        "meaning_vi": "trong",
+                        "hsk": "HSK 1",
+                        "used_as_vietnamese_loanword": true,
+                        "already_explained": false
+                      },
+                      {
+                        "word": "传来",
+                        "pinyin": "chuán lái",
+                        "hanvi": "truyền lai",
+                        "meaning_vi": "truyền tới, vọng tới",
+                        "hsk": "HSK 4",
+                        "used_as_vietnamese_loanword": false,
+                        "already_explained": false
+                      },
+                      {
+                        "word": "爆裂声",
+                        "pinyin": "bàoliè shēng",
+                        "hanvi": "bạo liệt thanh",
+                        "meaning_vi": "tiếng nổ vang",
+                        "hsk": "Above HSK",
+                        "used_as_vietnamese_loanword": false,
+                        "already_explained": false
+                      }
+                    ],
+                    "phrase_examples": []
+                  }
+                ]
+              },
+              {
+                "clause_id": "clause_2",
+                "text": "更让他隐隐有种不好的预感",
+                "pinyin": "gèng ràng tā yǐnyǐn yǒu zhǒng bù hǎo de yùgǎn",
+                "hanvi": "cánh nhượng tha ẩn ẩn hữu chủng bất hảo đích dự cảm",
+                "meaning_vi": "lại càng làm cho hắn mơ hồ có dự cảm không lành",
+                "phrases": [
+                  {
+                    "text": "更让",
+                    "pinyin": "gèng ràng",
+                    "hanvi": "cánh nhượng",
+                    "meaning_vi": "lại càng làm cho",
+                    "hsk": "Above HSK",
+                    "use_in_modern_language": true,
+                    "words": [
+                      {
+                        "word": "更",
+                        "pinyin": "gèng",
+                        "hanvi": "cánh",
+                        "meaning_vi": "càng, hơn",
+                        "hsk": "HSK 3",
+                        "used_as_vietnamese_loanword": false,
+                        "already_explained": false
+                      },
+                      {
+                        "word": "让",
+                        "pinyin": "ràng",
+                        "hanvi": "nhượng",
+                        "meaning_vi": "khiến, làm cho",
+                        "hsk": "HSK 3",
+                        "used_as_vietnamese_loanword": true,
+                        "already_explained": false
+                      }
+                    ],
+                    "phrase_examples": [
+                      {
+                        "zh": "这件事更让他担心。",
+                        "pinyin": "Zhè jiàn shì gèng ràng tā dānxīn.",
+                        "hanvi": "Giá kiện sự cánh nhượng tha đam tâm.",
+                        "vi": "Chuyện này càng làm anh ấy lo lắng.",
+                        "new_words": [
+                          {
+                            "word": "这",
+                            "pinyin": "zhè",
+                            "hanvi": "giá",
+                            "meaning_vi": "này",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "件",
+                            "pinyin": "jiàn",
+                            "hanvi": "kiện",
+                            "meaning_vi": "việc (lượng từ)",
+                            "hsk": "HSK 2",
+                            "used_as_vietnamese_loanword": true,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "事",
+                            "pinyin": "shì",
+                            "hanvi": "sự",
+                            "meaning_vi": "chuyện, việc",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": true,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "更让",
+                            "pinyin": "gèng ràng",
+                            "hanvi": "cánh nhượng",
+                            "meaning_vi": "lại càng làm cho",
+                            "hsk": "Above HSK",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "他",
+                            "pinyin": "tā",
+                            "hanvi": "tha",
+                            "meaning_vi": "anh ấy",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": true
+                          },
+                          {
+                            "word": "担心",
+                            "pinyin": "dānxīn",
+                            "hanvi": "đam tâm",
+                            "meaning_vi": "lo lắng",
+                            "hsk": "HSK 4",
+                            "used_as_vietnamese_loanword": true,
+                            "already_explained": false
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "text": "他",
+                    "pinyin": "tā",
+                    "hanvi": "tha",
+                    "meaning_vi": "hắn, anh ấy",
+                    "hsk": "HSK 1",
+                    "use_in_modern_language": true,
+                    "words": null,
+                    "phrase_examples": [
+                      {
+                        "zh": "他是我的朋友。",
+                        "pinyin": "Tā shì wǒ de péngyou.",
+                        "hanvi": "Tha thị ngã đích bằng hữu.",
+                        "vi": "Anh ấy là bạn tôi.",
+                        "new_words": [
+                          {
+                            "word": "他",
+                            "pinyin": "tā",
+                            "hanvi": "tha",
+                            "meaning_vi": "anh ấy",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": true
+                          },
+                          {
+                            "word": "是",
+                            "pinyin": "shì",
+                            "hanvi": "thị",
+                            "meaning_vi": "là",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": true,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "我",
+                            "pinyin": "wǒ",
+                            "hanvi": "ngã",
+                            "meaning_vi": "tôi",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": true
+                          },
+                          {
+                            "word": "的",
+                            "pinyin": "de",
+                            "hanvi": "đích",
+                            "meaning_vi": "(trợ từ) của",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "朋友",
+                            "pinyin": "péngyou",
+                            "hanvi": "bằng hữu",
+                            "meaning_vi": "bạn",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": true,
+                            "already_explained": false
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "text": "隐隐",
+                    "pinyin": "yǐnyǐn",
+                    "hanvi": "ẩn ẩn",
+                    "meaning_vi": "mơ hồ, lờ mờ",
+                    "hsk": "Above HSK",
+                    "use_in_modern_language": true,
+                    "words": null,
+                    "phrase_examples": [
+                      {
+                        "zh": "他隐隐觉得不对劲。",
+                        "pinyin": "Tā yǐnyǐn juéde bú duìjìn.",
+                        "hanvi": "Tha ẩn ẩn giác đắc bất đối tận.",
+                        "vi": "Anh ta mơ hồ cảm thấy có gì đó không ổn.",
+                        "new_words": [
+                          {
+                            "word": "他",
+                            "pinyin": "tā",
+                            "hanvi": "tha",
+                            "meaning_vi": "anh ta",
+                            "hsk": "HSK 1",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": true
+                          },
+                          {
+                            "word": "隐隐",
+                            "pinyin": "yǐnyǐn",
+                            "hanvi": "ẩn ẩn",
+                            "meaning_vi": "mơ hồ, lờ mờ",
+                            "hsk": "Above HSK",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          },
+                          {
+                            "word": "觉得",
+                            "pinyin": "juéde",
+                            "hanvi": "giác đắc",
+                            "meaning_vi": "cảm thấy",
+                            "hsk": "HSK 3",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": true
+                          },
+                          {
+                            "word": "不对劲",
+                            "pinyin": "bú duìjìn",
+                            "hanvi": "bất đối tận",
+                            "meaning_vi": "không ổn, có gì đó lạ",
+                            "hsk": "Above HSK",
+                            "used_as_vietnamese_loanword": false,
+                            "already_explained": false
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "text": "有种不好的预感",
+                    "pinyin": "yǒu zhǒng bù hǎo de yùgǎn",
+                    "hanvi": "hữu chủng bất hảo đích dự cảm",
+                    "meaning_vi": "có một cảm giác dự cảm không tốt/không lành",
+                    "hsk": "Above HSK",
+                    "use_in_modern_language": false,
+                    "words": [
+                      {
+                        "word": "有种",
+                        "pinyin": "yǒu zhǒng",
+                        "hanvi": "hữu chủng",
+                        "meaning_vi": "có loại, có kiểu/cảm giác",
+                        "hsk": "Above HSK",
+                        "used_as_vietnamese_loanword": false,
+                        "already_explained": false
+                      },
+                      {
+                        "word": "不好的",
+                        "pinyin": "bù hǎo de",
+                        "hanvi": "bất hảo đích",
+                        "meaning_vi": "không tốt",
+                        "hsk": "HSK 1",
+                        "used_as_vietnamese_loanword": true,
+                        "already_explained": false
+                      },
+                      {
+                        "word": "预感",
+                        "pinyin": "yùgǎn",
+                        "hanvi": "dự cảm",
+                        "meaning_vi": "dự cảm, linh cảm",
+                        "hsk": "Above HSK",
+                        "used_as_vietnamese_loanword": true,
+                        "already_explained": false
+                      }
+                    ],
+                    "phrase_examples": []
+                  }
+                ]
+              }
+            ],
+            "hsk_overall": "Above HSK",
+            "examples": [
+              {
+                "zh": "更何况刚才光幕中传来的爆裂声，更让他隐隐有种不好的预感。",
+                "pinyin": "Gèng hékuàng gāngcái guāngmù zhōng chuán lái de bàoliè shēng, gèng ràng tā yǐnyǐn yǒu zhǒng bù hǎo de yùgǎn.",
+                "hanvi": "Cánh hà huống cương tài quang mạc trung truyền lai đích bạo liệt thanh, cánh nhượng tha ẩn ẩn hữu chủng bất hảo đích dự cảm.",
+                "vi": "Huống chi vừa rồi trong quang màn truyền tới tiếng nổ vang, lại càng khiến hắn mơ hồ có một linh cảm chẳng lành."
+              },
+              {
+                "zh": "更何况你刚才说的话，更让我担心。",
+                "pinyin": "Gèng hékuàng nǐ gāngcái shuō de huà, gèng ràng wǒ dānxīn.",
+                "hanvi": "Cánh hà huống nhĩ cương tài thuyết đích thoại, cánh nhượng ngã đam tâm.",
+                "vi": "Huống chi lời bạn vừa nói lại càng khiến tôi lo lắng."
+              }
+            ],
+            "hanzi_explanation": "Về mặt Hán tự: 更 (cánh) nghĩa là 'càng', 何况 (hà huống) là thành ngữ dùng chỉ tình huống đáng chú ý hơn, tăng nhấn mạnh. 刚才 (cương tài) nghĩa là 'vừa rồi', 光幕 (quang mạc) chỉ 'màn ánh sáng' (trong truyện tiên hiệp/xianxia, đây là vật cản hay kết giới bằng ánh sáng). 中 (trung) nghĩa là 'trong', 传来 (truyền lai) nghĩa là 'truyền tới', 爆裂声 (bạo liệt thanh) là tiếng nổ vang lớn. 让 (nhượng) nghĩa là 'khiến', 他 (tha) là 'hắn', 隐隐 (ẩn ẩn) là trạng từ chỉ sự mơ hồ, 有种 (hữu chủng) là 'có một loại', 不好的 (bất hảo đích) là 'không tốt', 预感 (dự cảm) là sự cảm nhận trước, dự đoán điều xấu.",
+            "grammar_explanation": "Câu gồm hai mệnh đề tách biệt bằng dấu phẩy. Cấu trúc đầu tiên '更何况...，更让他...' là nhấn mạnh, dùng '更' lặp lại để diễn đạt ý tăng tiến (ngữ khí mạnh). Chủ ngữ bị ẩn, động từ vị ngữ nêu rõ nội dung: mệnh đề đầu là trạng ngữ chỉ lý do ('Huống chi...' – tăng cường lý do), mệnh đề sau dùng '让' (khiến) + tân ngữ + động từ/tính từ để diễn đạt hệ quả. Cuối câu có cụm trạng từ/tính ngữ '隐隐有种不好的预感' – phối hợp trạng ngữ với bổ ngữ chỉ cảm giác chưa rõ ràng. Cấu trúc này sử dụng từ ngữ mang tính văn học/xianxia, dùng cho tự sự hoặc diễn tả tâm trạng nhân vật. Khi chuyển sang tiếng Việt, cách diễn đạt phù hợp là chia thành hai vế: 'Huống chi... vừa rồi... lại càng khiến...'.",
+            "text_vi": null,
+            "text_vi_ref": null,
+            "text_vi_ai": null
+          }
+        }
+      ]
+    }
+  ],
+  "tts_segments": [
+    {
+      "order": 1,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "neutral",
+      "text": "中文 原文句子, 因为后边从那光幕中飞遁出来的修士虽然个个狼狈万分，但无一不是元婴期修为，即使老魔再自大，也绝不敢等闲视之的。",
+      "pause_after_ms": 600,
+      "meta": {
+        "pinyin": "Yīnwèi hòubiān cóng nà guāngmù zhōng fēidùn chūlái de xiūshì suīrán gège lángbèi wànfēn, dàn wú yī bùshì yuányīngqī xiūwéi, jíshǐ lǎomó zài zìdà, yě jué bù gǎn děngxián shì zhī de."
+      }
+    },
+    {
+      "order": 2,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Câu tiếng Việt tham khảo, Bởi vì các tu sĩ phi độn ra từ trong quang mạc tuy rằng ai nấy cũng đều chật vật vạn phần, nhưng không một ai không có Nguyên Anh tu vi, cho dù lão ma rất tự đại, cũng tuyệt không dám khinh thường.",
+      "pause_after_ms": 600,
+      "meta": null
+    },
+    {
+      "order": 3,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "neutral",
+      "text": "中文 分句, 因为后边从那光幕中飞遁出来的修士",
+      "pause_after_ms": 500,
+      "meta": {
+        "pinyin": "Yīnwèi hòubiān cóng nà guāngmù zhōng fēidùn chūlái de xiūshì",
+        "hanvi": "Nhân vi hậu biên tòng nã quang mạc trung phi độn xuất lai đích tu sĩ"
+      }
+    },
+    {
+      "order": 4,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa phân câu, Bởi vì những tu sĩ (bay ra) từ trong quang màn phía sau",
+      "pause_after_ms": 500,
+      "meta": null
+    },
+    {
+      "order": 5,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 词汇, 因为",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "yīnwèi",
+        "hanvi": "nhân vi"
+      }
+    },
+    {
+      "order": 6,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tiếng Việt, bởi vì",
+      "pause_after_ms": 500,
+      "meta": null
+    },
+    {
+      "order": 7,
+      "lang": "zh",
+      "voice": "character",
+      "style": "natural",
+      "text": "中文 示例, 因为我很忙。",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "Yīnwèi wǒ hěn máng.",
+        "hanvi": "Nhân vi ngã rất mang."
+      }
+    },
+    {
+      "order": 8,
+      "lang": "vi",
+      "voice": "character",
+      "style": "natural",
+      "text": "Tiếng Việt Ví dụ tiếng Việt, Bởi vì tôi rất bận.",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 9,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 因为",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "yīnwèi",
+        "hanvi": "nhân vi"
+      }
+    },
+    {
+      "order": 10,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, bởi vì",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 11,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 我",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "wǒ",
+        "hanvi": "ngã"
+      }
+    },
+    {
+      "order": 12,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, tôi",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 13,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 很",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "hěn",
+        "hanvi": "ngận"
+      }
+    },
+    {
+      "order": 14,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, rất",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 15,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 忙",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "máng",
+        "hanvi": "mang"
+      }
+    },
+    {
+      "order": 16,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, bận",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 17,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 词汇, 后边",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "hòubiān",
+        "hanvi": "hậu biên"
+      }
+    },
+    {
+      "order": 18,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tiếng Việt, phía sau",
+      "pause_after_ms": 500,
+      "meta": null
+    },
+    {
+      "order": 19,
+      "lang": "zh",
+      "voice": "character",
+      "style": "natural",
+      "text": "中文 示例, 他在后边。",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "Tā zài hòubiān.",
+        "hanvi": "Tha tại hậu biên."
+      }
+    },
+    {
+      "order": 20,
+      "lang": "vi",
+      "voice": "character",
+      "style": "natural",
+      "text": "Tiếng Việt Ví dụ tiếng Việt, Anh ấy ở phía sau.",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 21,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 他",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "tā",
+        "hanvi": "tha"
+      }
+    },
+    {
+      "order": 22,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, anh ấy",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 23,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 在",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "zài",
+        "hanvi": "tại"
+      }
+    },
+    {
+      "order": 24,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, ở",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 25,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 后边",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "hòubiān",
+        "hanvi": "hậu biên"
+      }
+    },
+    {
+      "order": 26,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, phía sau",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 27,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 词汇, 从那光幕中",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "cóng nà guāngmù zhōng",
+        "hanvi": "tòng nã quang mạc trung"
+      }
+    },
+    {
+      "order": 28,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tiếng Việt, từ trong quang màn đó",
+      "pause_after_ms": 500,
+      "meta": null
+    },
+    {
+      "order": 29,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 从",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "cóng",
+        "hanvi": "tòng"
+      }
+    },
+    {
+      "order": 30,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, từ",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 31,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 那",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "nà",
+        "hanvi": "nã"
+      }
+    },
+    {
+      "order": 32,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, đó",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 33,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 光幕",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "guāngmù",
+        "hanvi": "quang mạc"
+      }
+    },
+    {
+      "order": 34,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, màn sáng",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 35,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 中",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "zhōng",
+        "hanvi": "trung"
+      }
+    },
+    {
+      "order": 36,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, ở trong",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 37,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 词汇, 飞遁出来",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "fēidùn chūlái",
+        "hanvi": "phi độn xuất lai"
+      }
+    },
+    {
+      "order": 38,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tiếng Việt, bay trốn ra",
+      "pause_after_ms": 500,
+      "meta": null
+    },
+    {
+      "order": 39,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 飞",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "fēi",
+        "hanvi": "phi"
+      }
+    },
+    {
+      "order": 40,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, bay",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 41,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 遁",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "dùn",
+        "hanvi": "độn"
+      }
+    },
+    {
+      "order": 42,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, trốn, ẩn, độn",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 43,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 出来",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "chūlái",
+        "hanvi": "xuất lai"
+      }
+    },
+    {
+      "order": 44,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, ra ngoài",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 45,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 词汇, 修士",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "xiūshì",
+        "hanvi": "tu sĩ"
+      }
+    },
+    {
+      "order": 46,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tiếng Việt, tu sĩ",
+      "pause_after_ms": 500,
+      "meta": null
+    },
+    {
+      "order": 47,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 修",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "xiū",
+        "hanvi": "tu"
+      }
+    },
+    {
+      "order": 48,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, tu, sửa",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 49,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 士",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "shì",
+        "hanvi": "sĩ"
+      }
+    },
+    {
+      "order": 50,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, trí thức, sĩ",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 51,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "neutral",
+      "text": "中文 分句, 虽然个个狼狈万分",
+      "pause_after_ms": 500,
+      "meta": {
+        "pinyin": "suīrán gège lángbèi wànfēn",
+        "hanvi": "Tuy nhiên cá cá lang bệ vạn phân"
+      }
+    },
+    {
+      "order": 52,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa phân câu, Tuy ai nấy đều vô cùng chật vật/khốn đốn",
+      "pause_after_ms": 500,
+      "meta": null
+    },
+    {
+      "order": 53,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 词汇, 虽然",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "suīrán",
+        "hanvi": "tuy nhiên"
+      }
+    },
+    {
+      "order": 54,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tiếng Việt, tuy rằng",
+      "pause_after_ms": 500,
+      "meta": null
+    },
+    {
+      "order": 55,
+      "lang": "zh",
+      "voice": "character",
+      "style": "natural",
+      "text": "中文 示例, 虽然下雨了，但我还是去。",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "Suīrán xià yǔ le, dàn wǒ háishi qù.",
+        "hanvi": "Tuy nhiên hạ vũ liễu, đãn ngã hoàn thị khứ."
+      }
+    },
+    {
+      "order": 56,
+      "lang": "vi",
+      "voice": "character",
+      "style": "natural",
+      "text": "Tiếng Việt Ví dụ tiếng Việt, Tuy trời mưa, nhưng tôi vẫn đi.",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 57,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 虽然",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "suīrán",
+        "hanvi": "tuy nhiên"
+      }
+    },
+    {
+      "order": 58,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, tuy rằng",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 59,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 下雨",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "xià yǔ",
+        "hanvi": "hạ vũ"
+      }
+    },
+    {
+      "order": 60,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, mưa",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 61,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 了",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "le",
+        "hanvi": "liễu"
+      }
+    },
+    {
+      "order": 62,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, (trợ từ động thái)",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 63,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 但",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "dàn",
+        "hanvi": "đãn"
+      }
+    },
+    {
+      "order": 64,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, nhưng",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 65,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 我",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "wǒ",
+        "hanvi": "ngã"
+      }
+    },
+    {
+      "order": 66,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, tôi",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 67,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 还是",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "háishi",
+        "hanvi": "hoàn thị"
+      }
+    },
+    {
+      "order": 68,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, vẫn",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 69,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 去",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "qù",
+        "hanvi": "khứ"
+      }
+    },
+    {
+      "order": 70,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, đi",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 71,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 词汇, 个个",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "gège",
+        "hanvi": "cá cá"
+      }
+    },
+    {
+      "order": 72,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tiếng Việt, ai nấy, từng người một",
+      "pause_after_ms": 500,
+      "meta": null
+    },
+    {
+      "order": 73,
+      "lang": "zh",
+      "voice": "character",
+      "style": "natural",
+      "text": "中文 示例, 我们个个都喜欢学习。",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "Wǒmen gège dōu xǐhuan xuéxí.",
+        "hanvi": "Ngã môn cá cá đều hỷ hoan học tập."
+      }
+    },
+    {
+      "order": 74,
+      "lang": "vi",
+      "voice": "character",
+      "style": "natural",
+      "text": "Tiếng Việt Ví dụ tiếng Việt, Mỗi người chúng tôi đều thích học.",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 75,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 我们",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "wǒmen",
+        "hanvi": "ngã môn"
+      }
+    },
+    {
+      "order": 76,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, chúng tôi",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 77,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 个个",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "gège",
+        "hanvi": "cá cá"
+      }
+    },
+    {
+      "order": 78,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, ai nấy",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 79,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 都",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "dōu",
+        "hanvi": "đô"
+      }
+    },
+    {
+      "order": 80,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, đều",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 81,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 喜欢",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "xǐhuan",
+        "hanvi": "hỷ hoan"
+      }
+    },
+    {
+      "order": 82,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, thích",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 83,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 学习",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "xuéxí",
+        "hanvi": "học tập"
+      }
+    },
+    {
+      "order": 84,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, học",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 85,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 词汇, 狼狈万分",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "lángbèi wànfēn",
+        "hanvi": "lang bệ vạn phân"
+      }
+    },
+    {
+      "order": 86,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tiếng Việt, vô cùng chật vật, cực kỳ khốn đốn",
+      "pause_after_ms": 500,
+      "meta": null
+    },
+    {
+      "order": 87,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 狼狈",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "lángbèi",
+        "hanvi": "lang bệ"
+      }
+    },
+    {
+      "order": 88,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, chật vật; thảm hại",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 89,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 万分",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "wànfēn",
+        "hanvi": "vạn phân"
+      }
+    },
+    {
+      "order": 90,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, vô cùng",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 91,
+      "lang": "zh",
+      "voice": "character",
+      "style": "natural",
+      "text": "中文 示例, 他昨天狼狈万分。",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "Tā zuótiān lángbèi wànfēn.",
+        "hanvi": "Tha tạc thiên lang bệ vạn phân."
+      }
+    },
+    {
+      "order": 92,
+      "lang": "vi",
+      "voice": "character",
+      "style": "natural",
+      "text": "Tiếng Việt Ví dụ tiếng Việt, Hôm qua anh ấy cực kỳ chật vật.",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 93,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 他",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "tā",
+        "hanvi": "tha"
+      }
+    },
+    {
+      "order": 94,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, anh ấy",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 95,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 昨天",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "zuótiān",
+        "hanvi": "tạc thiên"
+      }
+    },
+    {
+      "order": 96,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, hôm qua",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 97,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 狼狈",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "lángbèi",
+        "hanvi": "lang bệ"
+      }
+    },
+    {
+      "order": 98,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, chật vật",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 99,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 万分",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "wànfēn",
+        "hanvi": "vạn phân"
+      }
+    },
+    {
+      "order": 100,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, vô cùng",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 101,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "neutral",
+      "text": "中文 分句, 但无一不是元婴期修为",
+      "pause_after_ms": 500,
+      "meta": {
+        "pinyin": "dàn wú yī bù shì yuányīngqī xiūwéi",
+        "hanvi": "Đãn vô nhất bất thị Nguyên Anh kỳ tu vi"
+      }
+    },
+    {
+      "order": 102,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa phân câu, nhưng không một ai không có tu vi Nguyên Anh kỳ",
+      "pause_after_ms": 500,
+      "meta": null
+    },
+    {
+      "order": 103,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 词汇, 但",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "dàn",
+        "hanvi": "đãn"
+      }
+    },
+    {
+      "order": 104,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tiếng Việt, nhưng",
+      "pause_after_ms": 500,
+      "meta": null
+    },
+    {
+      "order": 105,
+      "lang": "zh",
+      "voice": "character",
+      "style": "natural",
+      "text": "中文 示例, 想去，但没时间。",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "Xiǎng qù, dàn méi shíjiān.",
+        "hanvi": "Tưởng khứ, đãn một thì gian."
+      }
+    },
+    {
+      "order": 106,
+      "lang": "vi",
+      "voice": "character",
+      "style": "natural",
+      "text": "Tiếng Việt Ví dụ tiếng Việt, Muốn đi, nhưng không có thời gian.",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 107,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 想",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "xiǎng",
+        "hanvi": "tưởng"
+      }
+    },
+    {
+      "order": 108,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, muốn",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 109,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 去",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "qù",
+        "hanvi": "khứ"
+      }
+    },
+    {
+      "order": 110,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, đi",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 111,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 但",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "dàn",
+        "hanvi": "đãn"
+      }
+    },
+    {
+      "order": 112,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, nhưng",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 113,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 没",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "méi",
+        "hanvi": "một"
+      }
+    },
+    {
+      "order": 114,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, không có",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 115,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 时间",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "shíjiān",
+        "hanvi": "thời gian"
+      }
+    },
+    {
+      "order": 116,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, thời gian",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 117,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 词汇, 无一不是",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "wú yī bù shì",
+        "hanvi": "vô nhất bất thị"
+      }
+    },
+    {
+      "order": 118,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tiếng Việt, không một ai không phải; ai cũng đều là",
+      "pause_after_ms": 500,
+      "meta": null
+    },
+    {
+      "order": 119,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 无",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "wú",
+        "hanvi": "vô"
+      }
+    },
+    {
+      "order": 120,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, không",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 121,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 一",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "yī",
+        "hanvi": "nhất"
+      }
+    },
+    {
+      "order": 122,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, một",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 123,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 不",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "bù",
+        "hanvi": "bất"
+      }
+    },
+    {
+      "order": 124,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, không",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 125,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 是",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "shì",
+        "hanvi": "thị"
+      }
+    },
+    {
+      "order": 126,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, là",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 127,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 词汇, 元婴期修为",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "yuányīngqī xiūwéi",
+        "hanvi": "Nguyên Anh kỳ tu vi"
+      }
+    },
+    {
+      "order": 128,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tiếng Việt, tu vi Nguyên Anh kỳ",
+      "pause_after_ms": 500,
+      "meta": null
+    },
+    {
+      "order": 129,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 元婴期",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "yuányīngqī",
+        "hanvi": "Nguyên Anh kỳ"
+      }
+    },
+    {
+      "order": 130,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, kỳ Nguyên Anh (một giai đoạn tu luyện giả trong truyện tiên hiệp)",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 131,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 修为",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "xiūwéi",
+        "hanvi": "tu vi"
+      }
+    },
+    {
+      "order": 132,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, tu vi",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 133,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "neutral",
+      "text": "中文 分句, 即使老魔再自大，也绝不敢等闲视之的",
+      "pause_after_ms": 500,
+      "meta": {
+        "pinyin": "jíshǐ lǎomó zài zìdà, yě jué bù gǎn děngxián shì zhī de",
+        "hanvi": "Tức sử lão ma tái tự đại, dã tuyệt bất cảm đẳng nhàn thị chi đích"
+      }
+    },
+    {
+      "order": 134,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa phân câu, dù lão ma có tự cao đến đâu cũng tuyệt đối không dám xem thường",
+      "pause_after_ms": 500,
+      "meta": null
+    },
+    {
+      "order": 135,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 词汇, 即使",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "jíshǐ",
+        "hanvi": "tức sử"
+      }
+    },
+    {
+      "order": 136,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tiếng Việt, dù cho, cho dù",
+      "pause_after_ms": 500,
+      "meta": null
+    },
+    {
+      "order": 137,
+      "lang": "zh",
+      "voice": "character",
+      "style": "natural",
+      "text": "中文 示例, 即使下雨，我也去。",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "Jíshǐ xià yǔ, wǒ yě qù.",
+        "hanvi": "Tức sử hạ vũ, ngã dã khứ."
+      }
+    },
+    {
+      "order": 138,
+      "lang": "vi",
+      "voice": "character",
+      "style": "natural",
+      "text": "Tiếng Việt Ví dụ tiếng Việt, Dù mưa, tôi vẫn đi.",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 139,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 即使",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "jíshǐ",
+        "hanvi": "tức sử"
+      }
+    },
+    {
+      "order": 140,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, dù cho",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 141,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 下雨",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "xià yǔ",
+        "hanvi": "hạ vũ"
+      }
+    },
+    {
+      "order": 142,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, mưa",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 143,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 我",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "wǒ",
+        "hanvi": "ngã"
+      }
+    },
+    {
+      "order": 144,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, tôi",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 145,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 也",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "yě",
+        "hanvi": "dã"
+      }
+    },
+    {
+      "order": 146,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, cũng",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 147,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 去",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "qù",
+        "hanvi": "khứ"
+      }
+    },
+    {
+      "order": 148,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, đi",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 149,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 词汇, 老魔",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "lǎomó",
+        "hanvi": "lão ma"
+      }
+    },
+    {
+      "order": 150,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tiếng Việt, lão ma (ma đầu già, kẻ xấu già)",
+      "pause_after_ms": 500,
+      "meta": null
+    },
+    {
+      "order": 151,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 老",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "lǎo",
+        "hanvi": "lão"
+      }
+    },
+    {
+      "order": 152,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, già",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 153,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 魔",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "mó",
+        "hanvi": "ma"
+      }
+    },
+    {
+      "order": 154,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, ma",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 155,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 词汇, 再自大",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "zài zìdà",
+        "hanvi": "tái tự đại"
+      }
+    },
+    {
+      "order": 156,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tiếng Việt, (có) tự cao đến đâu",
+      "pause_after_ms": 500,
+      "meta": null
+    },
+    {
+      "order": 157,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 再",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "zài",
+        "hanvi": "tái"
+      }
+    },
+    {
+      "order": 158,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, lại, nữa, đến mức",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 159,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 自大",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "zìdà",
+        "hanvi": "tự đại"
+      }
+    },
+    {
+      "order": 160,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, tự cao",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 161,
+      "lang": "zh",
+      "voice": "character",
+      "style": "natural",
+      "text": "中文 示例, 他很自大。",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "Tā hěn zìdà.",
+        "hanvi": "Tha ngận tự đại."
+      }
+    },
+    {
+      "order": 162,
+      "lang": "vi",
+      "voice": "character",
+      "style": "natural",
+      "text": "Tiếng Việt Ví dụ tiếng Việt, Anh ấy rất tự cao.",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 163,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 他",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "tā",
+        "hanvi": "tha"
+      }
+    },
+    {
+      "order": 164,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, anh ấy",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 165,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 很",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "hěn",
+        "hanvi": "ngận"
+      }
+    },
+    {
+      "order": 166,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, rất",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 167,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 自大",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "zìdà",
+        "hanvi": "tự đại"
+      }
+    },
+    {
+      "order": 168,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, tự cao",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 169,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 词汇, 也绝不敢",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "yě jué bù gǎn",
+        "hanvi": "dã tuyệt bất cảm"
+      }
+    },
+    {
+      "order": 170,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tiếng Việt, cũng tuyệt đối không dám",
+      "pause_after_ms": 500,
+      "meta": null
+    },
+    {
+      "order": 171,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 也",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "yě",
+        "hanvi": "dã"
+      }
+    },
+    {
+      "order": 172,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, cũng",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 173,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 绝不",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "juébù",
+        "hanvi": "tuyệt bất"
+      }
+    },
+    {
+      "order": 174,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, tuyệt đối không",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 175,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 敢",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "gǎn",
+        "hanvi": "cảm"
+      }
+    },
+    {
+      "order": 176,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, dám",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 177,
+      "lang": "zh",
+      "voice": "character",
+      "style": "natural",
+      "text": "中文 示例, 她绝不敢说谎。",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "Tā jué bù gǎn shuōhuǎng.",
+        "hanvi": "Tha tuyệt bất cảm thuyết hoang."
+      }
+    },
+    {
+      "order": 178,
+      "lang": "vi",
+      "voice": "character",
+      "style": "natural",
+      "text": "Tiếng Việt Ví dụ tiếng Việt, Cô ấy tuyệt đối không dám nói dối.",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 179,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 她",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "tā",
+        "hanvi": "tha"
+      }
+    },
+    {
+      "order": 180,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, cô ấy",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 181,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 绝不",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "juébù",
+        "hanvi": "tuyệt bất"
+      }
+    },
+    {
+      "order": 182,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, tuyệt đối không",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 183,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 敢",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "gǎn",
+        "hanvi": "cảm"
+      }
+    },
+    {
+      "order": 184,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, dám",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 185,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 说谎",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "shuōhuǎng",
+        "hanvi": "thuyết hoang"
+      }
+    },
+    {
+      "order": 186,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, nói dối",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 187,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 词汇, 等闲视之",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "děngxián shì zhī",
+        "hanvi": "đẳng nhàn thị chi"
+      }
+    },
+    {
+      "order": 188,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tiếng Việt, xem thường, coi là chuyện thường",
+      "pause_after_ms": 500,
+      "meta": null
+    },
+    {
+      "order": 189,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 等闲",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "děngxián",
+        "hanvi": "đẳng nhàn"
+      }
+    },
+    {
+      "order": 190,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, thường tình, tầm thường",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 191,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 视",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "shì",
+        "hanvi": "thị"
+      }
+    },
+    {
+      "order": 192,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, xem, coi",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 193,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 之",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "zhī",
+        "hanvi": "chi"
+      }
+    },
+    {
+      "order": 194,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, (nó, chỉ đối tượng nhắc đến trước đó)",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 195,
+      "lang": "zh",
+      "voice": "character",
+      "style": "natural",
+      "text": "中文 示例, 因为后边从那光幕中飞遁出来的修士虽然个个狼狈万分，但无一不是元婴期修为。",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "Yīnwèi hòubiān cóng nà guāngmù zhōng fēidùn chūlái de xiūshì suīrán gège lángbèi wànfēn, dàn wú yī bù shì yuányīngqī xiūwéi.",
+        "hanvi": "Nhân vi hậu biên tòng nã quang mạc trung phi độn xuất lai đích tu sĩ tuy nhiên cá cá lang bệ vạn phân, đãn vô nhất bất thị Nguyên Anh kỳ tu vi."
+      }
+    },
+    {
+      "order": 196,
+      "lang": "vi",
+      "voice": "character",
+      "style": "natural",
+      "text": "Tiếng Việt Ví dụ tiếng Việt, Bởi vì những tu sĩ bay ra khỏi quang màn phía sau tuy ai nấy đều vô cùng chật vật, nhưng không ai là không có tu vi Nguyên Anh kỳ.",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 197,
+      "lang": "zh",
+      "voice": "character",
+      "style": "natural",
+      "text": "中文 示例, 即使老魔再自大，也绝不敢等闲视之的。",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "Jíshǐ lǎomó zài zìdà, yě jué bù gǎn děngxián shì zhī de.",
+        "hanvi": "Tức sử lão ma tái tự đại, dã tuyệt bất cảm đẳng nhàn thị chi đích."
+      }
+    },
+    {
+      "order": 198,
+      "lang": "vi",
+      "voice": "character",
+      "style": "natural",
+      "text": "Tiếng Việt Ví dụ tiếng Việt, Cho dù lão ma có tự cao đến đâu cũng tuyệt đối không dám xem thường.",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 199,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Giải thích Hán tự, Các từ chính trong câu này đều là những từ được dùng nhiều trong ngữ cảnh tiên hiệp/tu chân; \"",
+      "pause_after_ms": 800,
+      "meta": null
+    },
+    {
+      "order": 200,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "explanatory",
+      "text": "元婴期",
+      "pause_after_ms": 800,
+      "meta": null
+    },
+    {
+      "order": 201,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "\" (Nguyên Anh kỳ) và \"",
+      "pause_after_ms": 800,
+      "meta": null
+    },
+    {
+      "order": 202,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "explanatory",
+      "text": "修为",
+      "pause_after_ms": 800,
+      "meta": null
+    },
+    {
+      "order": 203,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "\" (tu vi) là những thuật ngữ tôn giáo/luyện khí, chỉ cảnh giới tu luyện trong truyện. \"",
+      "pause_after_ms": 800,
+      "meta": null
+    },
+    {
+      "order": 204,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "explanatory",
+      "text": "等闲视之",
+      "pause_after_ms": 800,
+      "meta": null
+    },
+    {
+      "order": 205,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "\" là thành ngữ cổ, hiếm dùng trong tiếng Trung hiện đại.",
+      "pause_after_ms": 800,
+      "meta": null
+    },
+    {
+      "order": 206,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Giải thích ngữ pháp, Câu này gồm nhiều mệnh đề liên kết bằng các liên từ và kết cấu phức tạp. Bắt đầu với \"",
+      "pause_after_ms": 1000,
+      "meta": null
+    },
+    {
+      "order": 207,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "explanatory",
+      "text": "因为",
+      "pause_after_ms": 1000,
+      "meta": null
+    },
+    {
+      "order": 208,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "\" (bởi vì) dùng mở đầu lý do, theo sau là một mệnh đề quan hệ \"",
+      "pause_after_ms": 1000,
+      "meta": null
+    },
+    {
+      "order": 209,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "explanatory",
+      "text": "从",
+      "pause_after_ms": 1000,
+      "meta": null
+    },
+    {
+      "order": 210,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "explanatory",
+      "text": "出来的修士",
+      "pause_after_ms": 1000,
+      "meta": null
+    },
+    {
+      "order": 211,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "\" (những tu sĩ bay ra từ...), trong đó động từ ghép \"",
+      "pause_after_ms": 1000,
+      "meta": null
+    },
+    {
+      "order": 212,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "explanatory",
+      "text": "飞遁出来",
+      "pause_after_ms": 1000,
+      "meta": null
+    },
+    {
+      "order": 213,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "\" thể hiện hành động. Phần \"",
+      "pause_after_ms": 1000,
+      "meta": null
+    },
+    {
+      "order": 214,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "explanatory",
+      "text": "虽然",
+      "pause_after_ms": 1000,
+      "meta": null
+    },
+    {
+      "order": 215,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "explanatory",
+      "text": "但",
+      "pause_after_ms": 1000,
+      "meta": null
+    },
+    {
+      "order": 216,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "...\" là cấu trúc đối lập tiêu chuẩn, trình bày sự tương phản. \"",
+      "pause_after_ms": 1000,
+      "meta": null
+    },
+    {
+      "order": 217,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "explanatory",
+      "text": "无一不是",
+      "pause_after_ms": 1000,
+      "meta": null
+    },
+    {
+      "order": 218,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "...\" là mẫu phủ định kép mang nghĩa nhấn mạnh sự tuyệt đối (không ai là không ...), có sắc thái trang trọng, cổ điển. \"",
+      "pause_after_ms": 1000,
+      "meta": null
+    },
+    {
+      "order": 219,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "explanatory",
+      "text": "即使",
+      "pause_after_ms": 1000,
+      "meta": null
+    },
+    {
+      "order": 220,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "explanatory",
+      "text": "也",
+      "pause_after_ms": 1000,
+      "meta": null
+    },
+    {
+      "order": 221,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "...\" nhấn mạnh khả năng nhượng bộ cực đoan, \"",
+      "pause_after_ms": 1000,
+      "meta": null
+    },
+    {
+      "order": 222,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "explanatory",
+      "text": "也绝不敢等闲视之的",
+      "pause_after_ms": 1000,
+      "meta": null
+    },
+    {
+      "order": 223,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "\" là dạng tăng cường phủ định, với \"",
+      "pause_after_ms": 1000,
+      "meta": null
+    },
+    {
+      "order": 224,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "explanatory",
+      "text": "等闲视之",
+      "pause_after_ms": 1000,
+      "meta": null
+    },
+    {
+      "order": 225,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "\" là thành ngữ cổ. Toàn bộ cấu trúc thể hiện rõ phong cách văn học/xianxia: từ vựng cấp cao, nhiều thuật ngữ, mẫu cú pháp nhấn mạnh và thành ngữ cổ. Để dịch tự nhiên sang tiếng Việt, cần chuyển đổi cấu trúc phức hợp sang các mệnh đề phụ thuộc, đồng thời chú ý giữ được ý nghĩa nhấn mạnh của phủ định kép và các thuật ngữ chuyên ngành.",
+      "pause_after_ms": 1000,
+      "meta": null
+    },
+    {
+      "order": 226,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "neutral",
+      "text": "中文 原文句子, 更何况刚才光幕中传来的爆裂声，更让他隐隐有种不好的预感。",
+      "pause_after_ms": 600,
+      "meta": {
+        "pinyin": "Gèng hékuàng gāngcái guāngmù zhōng chuán lái de bàoliè shēng, gèng ràng tā yǐnyǐn yǒu zhǒng bù hǎo de yùgǎn."
+      }
+    },
+    {
+      "order": 227,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Câu tiếng Việt tham khảo, Huống chi vừa rồi trong quang mạc truyền đến những âm thanh bạo liệt, càng khiến hắn có chút dự cảm không hay.",
+      "pause_after_ms": 600,
+      "meta": null
+    },
+    {
+      "order": 228,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "neutral",
+      "text": "中文 分句, 更何况刚才光幕中传来的爆裂声",
+      "pause_after_ms": 500,
+      "meta": {
+        "pinyin": "Gèng hékuàng gāngcái guāngmù zhōng chuán lái de bàoliè shēng",
+        "hanvi": "Cánh hà huống cương tài quang mạc trung truyền lai đích bạo liệt thanh"
+      }
+    },
+    {
+      "order": 229,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa phân câu, Huống chi vừa rồi tiếng nổ vang từ trong quang màn truyền đến",
+      "pause_after_ms": 500,
+      "meta": null
+    },
+    {
+      "order": 230,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 词汇, 更何况",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "gèng hékuàng",
+        "hanvi": "cánh hà huống"
+      }
+    },
+    {
+      "order": 231,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tiếng Việt, huống chi, hơn nữa",
+      "pause_after_ms": 500,
+      "meta": null
+    },
+    {
+      "order": 232,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 更",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "gèng",
+        "hanvi": "cánh"
+      }
+    },
+    {
+      "order": 233,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, càng, hơn nữa",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 234,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 何况",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "hékuàng",
+        "hanvi": "hà huống"
+      }
+    },
+    {
+      "order": 235,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, huống chi",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 236,
+      "lang": "zh",
+      "voice": "character",
+      "style": "natural",
+      "text": "中文 示例, 天气冷，我都觉得冷，更何况你呢？",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "Tiānqì lěng, wǒ dōu juéde lěng, gèng hékuàng nǐ ne?",
+        "hanvi": "Thiên khí lãnh, ngã đô giác đắc lãnh, cánh hà huống nhĩ ne?"
+      }
+    },
+    {
+      "order": 237,
+      "lang": "vi",
+      "voice": "character",
+      "style": "natural",
+      "text": "Tiếng Việt Ví dụ tiếng Việt, Trời lạnh, ngay cả tôi cũng thấy lạnh, huống chi là bạn?",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 238,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 天气",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "tiānqì",
+        "hanvi": "thiên khí"
+      }
+    },
+    {
+      "order": 239,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, thời tiết",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 240,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 冷",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "lěng",
+        "hanvi": "lãnh"
+      }
+    },
+    {
+      "order": 241,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, lạnh",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 242,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 我",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "wǒ",
+        "hanvi": "ngã"
+      }
+    },
+    {
+      "order": 243,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, tôi",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 244,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 都",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "dōu",
+        "hanvi": "đô"
+      }
+    },
+    {
+      "order": 245,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, đều",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 246,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 觉得",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "juéde",
+        "hanvi": "giác đắc"
+      }
+    },
+    {
+      "order": 247,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, cảm thấy",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 248,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 更何况",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "gèng hékuàng",
+        "hanvi": "cánh hà huống"
+      }
+    },
+    {
+      "order": 249,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, huống chi",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 250,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 你",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "nǐ",
+        "hanvi": "nhĩ"
+      }
+    },
+    {
+      "order": 251,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, bạn",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 252,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 词汇, 刚才",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "gāngcái",
+        "hanvi": "cương tài"
+      }
+    },
+    {
+      "order": 253,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tiếng Việt, vừa rồi, ban nãy",
+      "pause_after_ms": 500,
+      "meta": null
+    },
+    {
+      "order": 254,
+      "lang": "zh",
+      "voice": "character",
+      "style": "natural",
+      "text": "中文 示例, 他刚才在这里。",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "Tā gāngcái zài zhèlǐ.",
+        "hanvi": "Tha cương tài tại giá lý."
+      }
+    },
+    {
+      "order": 255,
+      "lang": "vi",
+      "voice": "character",
+      "style": "natural",
+      "text": "Tiếng Việt Ví dụ tiếng Việt, Anh ấy vừa ở đây.",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 256,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 他",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "tā",
+        "hanvi": "tha"
+      }
+    },
+    {
+      "order": 257,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, anh ấy",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 258,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 刚才",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "gāngcái",
+        "hanvi": "cương tài"
+      }
+    },
+    {
+      "order": 259,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, vừa rồi",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 260,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 在",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "zài",
+        "hanvi": "tại"
+      }
+    },
+    {
+      "order": 261,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, ở",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 262,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 这里",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "zhèlǐ",
+        "hanvi": "giá lý"
+      }
+    },
+    {
+      "order": 263,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, ở đây",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 264,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 词汇, 光幕中传来的爆裂声",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "guāngmù zhōng chuán lái de bàoliè shēng",
+        "hanvi": "quang mạc trung truyền lai đích bạo liệt thanh"
+      }
+    },
+    {
+      "order": 265,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tiếng Việt, tiếng nổ vang truyền tới từ trong quang màn",
+      "pause_after_ms": 500,
+      "meta": null
+    },
+    {
+      "order": 266,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 光幕",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "guāngmù",
+        "hanvi": "quang mạc"
+      }
+    },
+    {
+      "order": 267,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, màn ánh sáng",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 268,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 中",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "zhōng",
+        "hanvi": "trung"
+      }
+    },
+    {
+      "order": 269,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, trong",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 270,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 传来",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "chuán lái",
+        "hanvi": "truyền lai"
+      }
+    },
+    {
+      "order": 271,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, truyền tới, vọng tới",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 272,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 爆裂声",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "bàoliè shēng",
+        "hanvi": "bạo liệt thanh"
+      }
+    },
+    {
+      "order": 273,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, tiếng nổ vang",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 274,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "neutral",
+      "text": "中文 分句, 更让他隐隐有种不好的预感",
+      "pause_after_ms": 500,
+      "meta": {
+        "pinyin": "gèng ràng tā yǐnyǐn yǒu zhǒng bù hǎo de yùgǎn",
+        "hanvi": "cánh nhượng tha ẩn ẩn hữu chủng bất hảo đích dự cảm"
+      }
+    },
+    {
+      "order": 275,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa phân câu, lại càng làm cho hắn mơ hồ có dự cảm không lành",
+      "pause_after_ms": 500,
+      "meta": null
+    },
+    {
+      "order": 276,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 词汇, 更让",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "gèng ràng",
+        "hanvi": "cánh nhượng"
+      }
+    },
+    {
+      "order": 277,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tiếng Việt, lại càng làm cho",
+      "pause_after_ms": 500,
+      "meta": null
+    },
+    {
+      "order": 278,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 更",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "gèng",
+        "hanvi": "cánh"
+      }
+    },
+    {
+      "order": 279,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, càng, hơn",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 280,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 让",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "ràng",
+        "hanvi": "nhượng"
+      }
+    },
+    {
+      "order": 281,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, khiến, làm cho",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 282,
+      "lang": "zh",
+      "voice": "character",
+      "style": "natural",
+      "text": "中文 示例, 这件事更让他担心。",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "Zhè jiàn shì gèng ràng tā dānxīn.",
+        "hanvi": "Giá kiện sự cánh nhượng tha đam tâm."
+      }
+    },
+    {
+      "order": 283,
+      "lang": "vi",
+      "voice": "character",
+      "style": "natural",
+      "text": "Tiếng Việt Ví dụ tiếng Việt, Chuyện này càng làm anh ấy lo lắng.",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 284,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 这",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "zhè",
+        "hanvi": "giá"
+      }
+    },
+    {
+      "order": 285,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, này",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 286,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 件",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "jiàn",
+        "hanvi": "kiện"
+      }
+    },
+    {
+      "order": 287,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, việc (lượng từ)",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 288,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 事",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "shì",
+        "hanvi": "sự"
+      }
+    },
+    {
+      "order": 289,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, chuyện, việc",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 290,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 更让",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "gèng ràng",
+        "hanvi": "cánh nhượng"
+      }
+    },
+    {
+      "order": 291,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, lại càng làm cho",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 292,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 他",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "tā",
+        "hanvi": "tha"
+      }
+    },
+    {
+      "order": 293,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, anh ấy",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 294,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 担心",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "dānxīn",
+        "hanvi": "đam tâm"
+      }
+    },
+    {
+      "order": 295,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, lo lắng",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 296,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 词汇, 他",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "tā",
+        "hanvi": "tha"
+      }
+    },
+    {
+      "order": 297,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tiếng Việt, hắn, anh ấy",
+      "pause_after_ms": 500,
+      "meta": null
+    },
+    {
+      "order": 298,
+      "lang": "zh",
+      "voice": "character",
+      "style": "natural",
+      "text": "中文 示例, 他是我的朋友。",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "Tā shì wǒ de péngyou.",
+        "hanvi": "Tha thị ngã đích bằng hữu."
+      }
+    },
+    {
+      "order": 299,
+      "lang": "vi",
+      "voice": "character",
+      "style": "natural",
+      "text": "Tiếng Việt Ví dụ tiếng Việt, Anh ấy là bạn tôi.",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 300,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 他",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "tā",
+        "hanvi": "tha"
+      }
+    },
+    {
+      "order": 301,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, anh ấy",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 302,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 是",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "shì",
+        "hanvi": "thị"
+      }
+    },
+    {
+      "order": 303,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, là",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 304,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 我",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "wǒ",
+        "hanvi": "ngã"
+      }
+    },
+    {
+      "order": 305,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, tôi",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 306,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 的",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "de",
+        "hanvi": "đích"
+      }
+    },
+    {
+      "order": 307,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, (trợ từ) của",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 308,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 朋友",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "péngyou",
+        "hanvi": "bằng hữu"
+      }
+    },
+    {
+      "order": 309,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, bạn",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 310,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 词汇, 隐隐",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "yǐnyǐn",
+        "hanvi": "ẩn ẩn"
+      }
+    },
+    {
+      "order": 311,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tiếng Việt, mơ hồ, lờ mờ",
+      "pause_after_ms": 500,
+      "meta": null
+    },
+    {
+      "order": 312,
+      "lang": "zh",
+      "voice": "character",
+      "style": "natural",
+      "text": "中文 示例, 他隐隐觉得不对劲。",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "Tā yǐnyǐn juéde bú duìjìn.",
+        "hanvi": "Tha ẩn ẩn giác đắc bất đối tận."
+      }
+    },
+    {
+      "order": 313,
+      "lang": "vi",
+      "voice": "character",
+      "style": "natural",
+      "text": "Tiếng Việt Ví dụ tiếng Việt, Anh ta mơ hồ cảm thấy có gì đó không ổn.",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 314,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 他",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "tā",
+        "hanvi": "tha"
+      }
+    },
+    {
+      "order": 315,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, anh ta",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 316,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 隐隐",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "yǐnyǐn",
+        "hanvi": "ẩn ẩn"
+      }
+    },
+    {
+      "order": 317,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, mơ hồ, lờ mờ",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 318,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 觉得",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "juéde",
+        "hanvi": "giác đắc"
+      }
+    },
+    {
+      "order": 319,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, cảm thấy",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 320,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 新词汇, 不对劲",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "bú duìjìn",
+        "hanvi": "bất đối tận"
+      }
+    },
+    {
+      "order": 321,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa từ mới, không ổn, có gì đó lạ",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 322,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 词汇, 有种不好的预感",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "yǒu zhǒng bù hǎo de yùgǎn",
+        "hanvi": "hữu chủng bất hảo đích dự cảm"
+      }
+    },
+    {
+      "order": 323,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tiếng Việt, có một cảm giác dự cảm không tốt/không lành",
+      "pause_after_ms": 500,
+      "meta": null
+    },
+    {
+      "order": 324,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 有种",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "yǒu zhǒng",
+        "hanvi": "hữu chủng"
+      }
+    },
+    {
+      "order": 325,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, có loại, có kiểu/cảm giác",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 326,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 不好的",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "bù hǎo de",
+        "hanvi": "bất hảo đích"
+      }
+    },
+    {
+      "order": 327,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, không tốt",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 328,
+      "lang": "zh",
+      "voice": "teacher",
+      "style": "neutral",
+      "text": "中文 组成词, 预感",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "yùgǎn",
+        "hanvi": "dự cảm"
+      }
+    },
+    {
+      "order": 329,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Nghĩa tổ thành, dự cảm, linh cảm",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 330,
+      "lang": "zh",
+      "voice": "character",
+      "style": "natural",
+      "text": "中文 示例, 更何况刚才光幕中传来的爆裂声，更让他隐隐有种不好的预感。",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "Gèng hékuàng gāngcái guāngmù zhōng chuán lái de bàoliè shēng, gèng ràng tā yǐnyǐn yǒu zhǒng bù hǎo de yùgǎn.",
+        "hanvi": "Cánh hà huống cương tài quang mạc trung truyền lai đích bạo liệt thanh, cánh nhượng tha ẩn ẩn hữu chủng bất hảo đích dự cảm."
+      }
+    },
+    {
+      "order": 331,
+      "lang": "vi",
+      "voice": "character",
+      "style": "natural",
+      "text": "Tiếng Việt Ví dụ tiếng Việt, Huống chi vừa rồi trong quang màn truyền tới tiếng nổ vang, lại càng khiến hắn mơ hồ có một linh cảm chẳng lành.",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 332,
+      "lang": "zh",
+      "voice": "character",
+      "style": "natural",
+      "text": "中文 示例, 更何况你刚才说的话，更让我担心。",
+      "pause_after_ms": 400,
+      "meta": {
+        "pinyin": "Gèng hékuàng nǐ gāngcái shuō de huà, gèng ràng wǒ dānxīn.",
+        "hanvi": "Cánh hà huống nhĩ cương tài thuyết đích thoại, cánh nhượng ngã đam tâm."
+      }
+    },
+    {
+      "order": 333,
+      "lang": "vi",
+      "voice": "character",
+      "style": "natural",
+      "text": "Tiếng Việt Ví dụ tiếng Việt, Huống chi lời bạn vừa nói lại càng khiến tôi lo lắng.",
+      "pause_after_ms": 400,
+      "meta": null
+    },
+    {
+      "order": 334,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Giải thích Hán tự, Về mặt Hán tự: ",
+      "pause_after_ms": 800,
+      "meta": null
+    },
+    {
+      "order": 335,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "explanatory",
+      "text": "更",
+      "pause_after_ms": 800,
+      "meta": null
+    },
+    {
+      "order": 336,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": " (cánh) nghĩa là 'càng', ",
+      "pause_after_ms": 800,
+      "meta": null
+    },
+    {
+      "order": 337,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "explanatory",
+      "text": "何况",
+      "pause_after_ms": 800,
+      "meta": null
+    },
+    {
+      "order": 338,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": " (hà huống) là thành ngữ dùng chỉ tình huống đáng chú ý hơn, tăng nhấn mạnh. ",
+      "pause_after_ms": 800,
+      "meta": null
+    },
+    {
+      "order": 339,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "explanatory",
+      "text": "刚才",
+      "pause_after_ms": 800,
+      "meta": null
+    },
+    {
+      "order": 340,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": " (cương tài) nghĩa là 'vừa rồi', ",
+      "pause_after_ms": 800,
+      "meta": null
+    },
+    {
+      "order": 341,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "explanatory",
+      "text": "光幕",
+      "pause_after_ms": 800,
+      "meta": null
+    },
+    {
+      "order": 342,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": " (quang mạc) chỉ 'màn ánh sáng' (trong truyện tiên hiệp/xianxia, đây là vật cản hay kết giới bằng ánh sáng). ",
+      "pause_after_ms": 800,
+      "meta": null
+    },
+    {
+      "order": 343,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "explanatory",
+      "text": "中",
+      "pause_after_ms": 800,
+      "meta": null
+    },
+    {
+      "order": 344,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": " (trung) nghĩa là 'trong', ",
+      "pause_after_ms": 800,
+      "meta": null
+    },
+    {
+      "order": 345,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "explanatory",
+      "text": "传来",
+      "pause_after_ms": 800,
+      "meta": null
+    },
+    {
+      "order": 346,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": " (truyền lai) nghĩa là 'truyền tới', ",
+      "pause_after_ms": 800,
+      "meta": null
+    },
+    {
+      "order": 347,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "explanatory",
+      "text": "爆裂声",
+      "pause_after_ms": 800,
+      "meta": null
+    },
+    {
+      "order": 348,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": " (bạo liệt thanh) là tiếng nổ vang lớn. ",
+      "pause_after_ms": 800,
+      "meta": null
+    },
+    {
+      "order": 349,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "explanatory",
+      "text": "让",
+      "pause_after_ms": 800,
+      "meta": null
+    },
+    {
+      "order": 350,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": " (nhượng) nghĩa là 'khiến', ",
+      "pause_after_ms": 800,
+      "meta": null
+    },
+    {
+      "order": 351,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "explanatory",
+      "text": "他",
+      "pause_after_ms": 800,
+      "meta": null
+    },
+    {
+      "order": 352,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": " (tha) là 'hắn', ",
+      "pause_after_ms": 800,
+      "meta": null
+    },
+    {
+      "order": 353,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "explanatory",
+      "text": "隐隐",
+      "pause_after_ms": 800,
+      "meta": null
+    },
+    {
+      "order": 354,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": " (ẩn ẩn) là trạng từ chỉ sự mơ hồ, ",
+      "pause_after_ms": 800,
+      "meta": null
+    },
+    {
+      "order": 355,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "explanatory",
+      "text": "有种",
+      "pause_after_ms": 800,
+      "meta": null
+    },
+    {
+      "order": 356,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": " (hữu chủng) là 'có một loại', ",
+      "pause_after_ms": 800,
+      "meta": null
+    },
+    {
+      "order": 357,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "explanatory",
+      "text": "不好的",
+      "pause_after_ms": 800,
+      "meta": null
+    },
+    {
+      "order": 358,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": " (bất hảo đích) là 'không tốt', ",
+      "pause_after_ms": 800,
+      "meta": null
+    },
+    {
+      "order": 359,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "explanatory",
+      "text": "预感",
+      "pause_after_ms": 800,
+      "meta": null
+    },
+    {
+      "order": 360,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": " (dự cảm) là sự cảm nhận trước, dự đoán điều xấu.",
+      "pause_after_ms": 800,
+      "meta": null
+    },
+    {
+      "order": 361,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "Tiếng Việt Giải thích ngữ pháp, Câu gồm hai mệnh đề tách biệt bằng dấu phẩy. Cấu trúc đầu tiên '",
+      "pause_after_ms": 1000,
+      "meta": null
+    },
+    {
+      "order": 362,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "explanatory",
+      "text": "更何况",
+      "pause_after_ms": 1000,
+      "meta": null
+    },
+    {
+      "order": 363,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "explanatory",
+      "text": "更让他",
+      "pause_after_ms": 1000,
+      "meta": null
+    },
+    {
+      "order": 364,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "...' là nhấn mạnh, dùng '",
+      "pause_after_ms": 1000,
+      "meta": null
+    },
+    {
+      "order": 365,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "explanatory",
+      "text": "更",
+      "pause_after_ms": 1000,
+      "meta": null
+    },
+    {
+      "order": 366,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "' lặp lại để diễn đạt ý tăng tiến (ngữ khí mạnh). Chủ ngữ bị ẩn, động từ vị ngữ nêu rõ nội dung: mệnh đề đầu là trạng ngữ chỉ lý do ('Huống chi...' – tăng cường lý do), mệnh đề sau dùng '",
+      "pause_after_ms": 1000,
+      "meta": null
+    },
+    {
+      "order": 367,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "explanatory",
+      "text": "让",
+      "pause_after_ms": 1000,
+      "meta": null
+    },
+    {
+      "order": 368,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "' (khiến) + tân ngữ + động từ/tính từ để diễn đạt hệ quả. Cuối câu có cụm trạng từ/tính ngữ '",
+      "pause_after_ms": 1000,
+      "meta": null
+    },
+    {
+      "order": 369,
+      "lang": "zh",
+      "voice": "narrator",
+      "style": "explanatory",
+      "text": "隐隐有种不好的预感",
+      "pause_after_ms": 1000,
+      "meta": null
+    },
+    {
+      "order": 370,
+      "lang": "vi",
+      "voice": "teacher",
+      "style": "explanatory",
+      "text": "' – phối hợp trạng ngữ với bổ ngữ chỉ cảm giác chưa rõ ràng. Cấu trúc này sử dụng từ ngữ mang tính văn học/xianxia, dùng cho tự sự hoặc diễn tả tâm trạng nhân vật. Khi chuyển sang tiếng Việt, cách diễn đạt phù hợp là chia thành hai vế: 'Huống chi... vừa rồi... lại càng khiến...'.",
+      "pause_after_ms": 1000,
+      "meta": null
+    }
+  ],
+  "_meta": {
+    "timestamp": "20260108T001706Z",
+    "task": "task1",
+    "chapter_id": "1000",
+    "max_sentences": 2,
+    "merged_audio_file": "outputs/audio/task1/20260108T001706Z/1000_merged.wav",
+    "merged_audio_duration": 958.42
+  }
+}

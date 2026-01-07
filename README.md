@@ -117,7 +117,7 @@ Usage:
 2. Run a task:
 
    ```bash
-   python scripts/generate.py tasks/task1.jsonpython scripts/generate.py tasks/task1.json
+   python scripts/generate.py tasks/task1.json
    ```
 
 This writes the result to `outputs/<task_name>_<timestamp>.json` and includes `_meta` information (timestamp, task name, chapter id). If `max_sentences` is set, the output will be truncated to that many sentences (scene order preserved).

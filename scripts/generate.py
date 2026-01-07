@@ -42,18 +42,22 @@ def split_sentences(text: str, lang: str) -> List[str]:
 def truncate_request_texts(
     text_zh: str,
     text_vi: Optional[str],
+    start_sentence: Optional[int],
     max_sentences: Optional[int],
 ) -> Tuple[str, Optional[str]]:
     if not max_sentences or max_sentences <= 0:
         return text_zh, text_vi
 
+    start_idx = (start_sentence - 1) if start_sentence and start_sentence > 0 else 0
+    end_idx = start_idx + max_sentences
+
     zh_sents = split_sentences(text_zh, "zh")
-    zh_cut = zh_sents[:max_sentences]
+    zh_cut = zh_sents[start_idx:end_idx]
 
     vi_cut = None
     if text_vi:
         vi_sents = split_sentences(text_vi, "vi")
-        vi_cut = vi_sents[:len(zh_cut)]
+        vi_cut = vi_sents[start_idx:end_idx]
 
     return (
         "".join(zh_cut),
@@ -183,6 +187,7 @@ def run(task_path: Path) -> int:
 
     zh_path = Path(task.get("chapter_zh_path", ""))
     vi_ref_path = Path(task.get("chapter_vi_ref_path", "")) if task.get("chapter_vi_ref_path") else None
+    start_sentence = task.get("start_sentence", 1)  # Default to first sentence
     max_sentences = task.get("max_sentences")  # ✅ NEW
     api_url = task.get("api_url", "http://localhost:8000/llm/analyze_chapter")
     output_dir = Path(task.get("output_dir", "outputs"))
@@ -199,6 +204,7 @@ def run(task_path: Path) -> int:
     text_zh, text_vi_ref = truncate_request_texts(
         raw_text_zh,
         raw_text_vi,
+        start_sentence,
         max_sentences,
     )
 
@@ -392,7 +398,7 @@ def run(task_path: Path) -> int:
         }
         
         try:
-            resp = httpx.post(synthesis_api, json=synthesis_payload, timeout=120.0)
+            resp = httpx.post(synthesis_api, json=synthesis_payload, timeout=600.0)
             if resp.status_code == 200:
                 result = resp.json()
                 print(f"✓ Synthesized {result['successful']}/{result['total_segments']} segments")

@@ -5,6 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.2] - 2026-01-08
+
+### Added
+- `start_sentence` parameter in task configuration for selective sentence analysis
+  - Allows specifying which sentence to start from (default: 1)
+  - Works with `max_sentences` to define analysis range
+  - Example: `start_sentence: 3, max_sentences: 2` analyzes sentences 3-4
+- Output examples directory with complete enrichment results
+  - `output-examples/task1_20260107T084159Z.json` - 2-sentence enrichment with clause structure
+  - `output-examples/task2_20260108T001706Z.json` - Extended analysis example
+  - `output-examples/task1/20260107T084159Z/1000_merged.wav` - 27MB merged audio demonstrating TTS with all segments
+
+### Fixed
+- Synthesis timeout increased from 120s to 600s (10 minutes)
+  - Prevents timeouts when synthesizing large numbers of segments (e.g., 275 segments)
+  - Addresses recurring "timed out" errors during audio generation
+
 ## [0.1.1] - 2026-01-07
 
 ### Changed

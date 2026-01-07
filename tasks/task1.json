@@ -3,6 +3,7 @@
   "chapter_id": "1000",
   "chapter_zh_path": "chapters/1000_zh.txt",
   "chapter_vi_ref_path": "chapters/1000_vi.txt",
+  "start_sentence": 1,
   "max_sentences": 2,
   "api_url": "http://localhost:8000/llm/analyze_chapter",
   "output_dir": "outputs",
