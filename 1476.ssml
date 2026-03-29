@@ -1,0 +1,807 @@
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:mstts="https://www.w3.org/2001/mstts"
+       xml:lang="zh-CN">
+
+  <!-- ============================================================
+       PHÀM NHÂN TU TIÊN – Chương 1476: Liên thủ phá cấm chế
+       Azure Neural TTS SSML
+
+       VOICE CASTING:
+       - Narrator ZH : zh-CN-YunxiNeural   (nam, trầm, trang trọng)
+       - Narrator VI : vi-VN-NamMinhNeural  (nam, trầm, bình thản)
+       - Lục Túc     : zh-CN-YunjianNeural  (nam, lạnh, uy quyền)
+       - Mộc Thanh   : zh-CN-XiaoyiNeural   (nữ, sắc, tự tin)
+       - Hàn Lập     : zh-CN-YunyeNeural    (nam, điềm tĩnh – không có thoại chương này)
+  ============================================================ -->
+
+  <!-- === TIÊU ĐỀ CHƯƠNG === -->
+  <voice name="zh-CN-YunjianNeural">
+    <mstts:express-as style="serious" styledegree="2">
+      <prosody rate="-15%" pitch="-5%">
+        第一千四百七十六章　联手破禁
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-10%" pitch="-3%">
+        Chương một nghìn bốn trăm bảy mươi sáu: Liên thủ phá cấm chế.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 1: Lục Túc ra lệnh === -->
+  <voice name="zh-CN-YunjianNeural">
+    <mstts:express-as style="serious" styledegree="1.8">
+      <prosody rate="-10%" pitch="-8%">
+        "韩道友，你先准备好祭雷术吧。在我们招呼的时候，就放出辟邪神雷。"
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-5%">
+        "Hàn đạo hữu, ngươi trước nên chuẩn bị Tế Lôi Thuật tốt đi. Vào lúc mà chúng ta ra hiệu thì hãy phóng thích Tịch Tà Thần Lôi."
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- Narrate: Lục Túc phiêu phù -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="-5%">
+        六足衣衫飘飘的悬浮在巨阵中心，不容置疑的吩咐道。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-5%">
+        Lục Túc đứng phiêu phù ngay giữa trung tâm pháp trận nói.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 2: Hàn Lập chuẩn bị === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="-5%">
+        韩立点点头，两手一掐诀，顿时身上金狐缭绕，一层电网浮现狂涨，又在一声轰鸣后，化为了一团金色光晕。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-5%">
+        Hàn Lập gật đầu, hai tay bấm niệm pháp quyết, nhất thời trên người kim hồ xuất hiện, một tầng hàng rào điện mạnh mẽ phát ra, tiếp theo đó là một tiếng nổ mạnh, biến thành một quầng sáng kim sắc.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+
+  <!-- === CÂU 3: Kim phù ngưng tụ === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="-5%">
+        金色符文四下飞舞，光晕一闪下凝聚成一颗金色圆球，轻轻悬浮单手之上。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-5%">
+        Kim sắc phù văn tung bay, quầng sáng chợt lóe rồi ngưng tụ thành một viên cầu màu vàng, nhẹ nhàng lơ lửng trên tay hắn.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+
+  <!-- === CÂU 4: Hàn Lập đứng nhìn === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="-5%">
+        这时，韩立不再继续施下去，只是大手托球的冷眼旁观起来。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-5%">
+        Lúc này Hàn Lập không hề tiếp tục thi pháp nữa, mà chỉ hờ hững cầm quả cầu đứng nhìn.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+
+  <!-- === CÂU 5: Lục Túc Mộc Thanh ra tay === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="-5%">
+        六足木青寺人却开始出手破禁了。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-5%">
+        Đám người Lục Túc và Mộc Thanh bắt đầu ra tay phá cấm chế.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 6: Pháp trận vận hành === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="+5%" pitch="+2%">
+        只见六足和木青口中念念有词，足下数十名高价妖物操纵的器同时光芒万道，组成的阵竟在一瞬间成了一个巨大黑洞，无数天地灵气从附近空中往六足和木青身上狂聚而去。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="+3%">
+        Chỉ thấy trong miệng Lục Túc và Mộc Thanh khẽ lẩm bẩm, mấy chục tên cao giai yêu vật phía dưới cũng đồng thời thao túng pháp khí. Nhất thời hào quang vạn đạo, pháp trận trong nháy mắt như biến thành một cái hắc động thật lớn, vô số thiên địa linh khí từ xung quanh phụ cận hướng về Lục Túc cùng Mộc Thanh mà tới.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+
+  <!-- === CÂU 7: Hai người như thần === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="-5%">
+        转眼间，六足二人就身处两团彩色灵霞包裹中，身上灵光闪闪，仿佛两尊神明一般。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-5%">
+        Trong nháy mắt hai người bọn Lục Túc đã được bao phủ ở hai luồng linh hà đủ màu, trên người phát ra linh quang rực rỡ, nhìn giống như hai vị thần vậy.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+
+  <!-- === CÂU 8: Mỹ phụ đầu bạc ra tay === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="-5%">
+        另一边，白美妇身处八道黑影最前方，两手一合，再一分，手中多出一口漆黑小钟。此钟表面陈旧无比，甚至边缘处还有些残缺！
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-5%">
+        Bên kia mỹ phụ đầu bạc đứng bên cạnh tám đạo hắc ảnh cũng ra tay. Hai tay ả chập lại rồi chia ra, xuất hiện một cái chuông nhỏ màu đen. Chuông này nhìn cổ kính vô cùng, thậm chí có chỗ còn không trọn vẹn.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 9: Huyết bào nhân === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="-5%">
+        两名血袍人，一人身处紫血傀儡肩头上，另一名却一晃下，到了新组成的巨型金属傀儡头顶。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-5%">
+        Hai gã huyết bào nhân, một đứng ở trên đầu Tử Huyết Khôi Lỗi, một đứng ở đầu một kim chúc khôi lỗi mới tạo ra.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 10: Tử Hồng Huyết Phủ === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="-5%">
+        紫血傀儡口中一声低吼，两手一搓下，竟在血光闪动中，多出一柄长约十丈的紫红血斧。此斧表面血芒闪动，被傀儡两手举起，并对准了前方的水面。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-5%">
+        Tử Huyết Khôi Lỗi trong miệng gầm nhẹ, hai tay chà xát, nhất thời huyết quang thiểm động, xuất hiện một thanh Tử Hồng Huyết Phủ, bề ngoài có huyết mang thiểm động. Khôi Lỗi hai tay nâng phủ, nhằm vào mặt nước phía trước.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 11: Kim chúc khôi lỗi === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="-5%">
+        金属傀儡在血袍人催动下，也同样抬起了手中的巨刃，表面泛起黑色异芒来。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-5%">
+        Kim chúc khôi lỗi dưới sự thúc dục của huyết bào nhân cũng giơ một thanh đao lớn trong tay lên, bề ngoài xuất hiện quang mang màu đen kỳ lạ.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 12: Lục Túc phóng quang trụ [ACTION] === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="+10%" pitch="+3%">
+        轰的一声巨响，六足终于单手一抬的拍出。一道黑色光柱从手中喷射而出。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="+5%">
+        "Ầm" một tiếng, Lục Túc cuối cùng cũng đã đánh ra. Một đạo hắc sắc quang trụ từ trong tay hắn phát ra.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 13: Quang trụ uy lực === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="+5%" pitch="+2%">
+        这一次的光柱，比起在空间通道时的粗了数倍有余，光柱所过之处，甚至附近空间一阵扭曲变形，仿佛皱起重叠一般。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="+3%">
+        Đạo quang trụ này so với lúc ở không gian thông đạo thì to hơn gấp mấy lần. Nơi cột sáng đi qua, không gian phụ cận thậm chí còn như bị chấn động, dồn nén như sắp đứt gẫy vậy.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 14: Cột sáng vào nước === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="-5%">
+        光柱一闪的没入了水面之中。原本看似死水的冥河，先是无动于衷，但是随着黑色光柱源源不断的喷入其中，终于有了变化。先是一囡囡的波纹漾开来，随即冥河亡水开始以光柱为中心疯狂旋转，并且越来越快，并出了轰隆隆之声。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-3%">
+        Cột sáng chợt lóe vào thẳng trong mặt nước. Nguyên bản Minh Hà nhìn bình lặng như mặt nước, nhưng khi đạo hắc sắc quang trụ không ngừng thâm nhập vào rốt cục đã xuất hiện biến hóa. Đầu tiên là từng đợt sóng gợn, sau đó nước của Minh Hà bắt đầu lấy cột sáng làm trung tâm điên cuồng xoáy tròn theo, hơn nữa càng lúc càng nhanh, đồng thời phát ra tiếng động ầm ầm.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 15: Mộc Thanh xuất thủ === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="+5%">
+        木青也出手了。足下的金花滴溜溜一转下，将附近光霞吸入了大半，然后体积狂涨，竖立之下，竟化为一面金灿灿的巨轮，直奔前方一切而去。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="+3%">
+        Lúc này Mộc Thanh cũng đã xuất thủ. Kim hoa dưới chân quay tít một vòng, đem quang hà phụ cận hút vào hơn phân nửa, sau đó thể tích bắt đầu mạnh mẽ to lên, hóa thành một pháp luân mang theo ánh sáng vàng rực rỡ lao thẳng về phía trước.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 16: Pháp luân chém nước === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="+5%" pitch="+2%">
+        此轮足直径数丈，尚未接触水面就先爆出风雷之声，金光一闪的斩入了水面中。顿时原本旋转中的水面，在金光闪过后，终于发出沉重鸣声的一分而开！
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="+3%">
+        Pháp luân này đường kính chừng mấy trượng, chưa tiếp xúc với mặt nước đã phát ra tiếng nổ lớn như sấm động, kim quang lóe lên chém vào trong mặt nước. Nhất thời mặt nước vốn đang xoáy tròn, sau khi kim quang hiện lên cuối cùng cũng bị mạnh mẽ chia mở ra!
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 17: Khe hở hình thành, không ổn định === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="-5%">
+        一个白色孔洞以光柱为中心缓缓浮现并延伸而来，但是四周水幕颤抖异常，让此洞极其不稳，随时都要塌陷的样子。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-5%">
+        Một lỗ thủng lớn màu trắng lấy cột sáng làm trung tâm chậm rãi xuất hiện, kéo dài tít về phía sau. Tuy vậy nước ở xung quanh lại không ngừng biến động, giống như bất kỳ lúc nào cũng phá sập con đường nước chuẩn bị hình thành kia.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 18: Huyết phủ và đao công kích === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="+8%" pitch="+3%">
+        "轰轰"两声传来，一只紫红巨斧血影和一道黑色刃芒也呼啸而来。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="+5%">
+        Đúng lúc này "Ầm Ầm!" hai tiếng truyền tới, một huyết ảnh cầm Tử Hồng Huyết Phủ và một lưỡi đao màu đen đã mạnh mẽ đánh tới.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 19: Minh Hà bị chia đôi [CLIMAX] === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="+10%" pitch="+4%">
+        在如此多攻击联手之下，又一阵惊天动地巨响后，冥河彻底被一分而开，一道高约数十丈，宽约十几丈的水中峡谷正在徐徐形成。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="+5%">
+        Dưới nhiều sự liên thủ công kích như vậy, một loạt âm thanh kinh thiên động địa phát ra, Minh Hà cuối cùng hoàn toàn bị chia ra. Một con đường cao chừng hơn mười trượng, bề rộng tầm vài chục trượng từ từ hình thành trong nước.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 20: Tơ đen xuất hiện === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="-10%" pitch="-3%">
+        但就在此刻，附近的水幕中一阵骨碌碌的怪响传出，接着一缕缕晶莹闪烁的黑丝从冥水中浮现而出，往巨大峡谷中一包而去。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-8%">
+        Nhưng đúng lúc này phía trong màn nước phụ cận bỗng xuất hiện những âm thanh kỳ quái vang lên, tiếp theo hàng loạt sợi tơ đen trong suốt từ trong nước hiện ra, hướng về phía cột sáng lao tới.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 21: Tấn công suy tàn === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="-5%">
+        不可思议的一幕出现了！原本几名妖王联手的放出的惊人攻击，无论光柱还是光轮刃芒，在这些黑丝一包之下，竟然纷纷一颤的淡下来，攻势立刻为之一缓，并呈现颓势出来。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-5%">
+        Một chuyện cực khó tin đã xảy ra! Nguyên bản những công kích kinh người của mấy yêu vương liên thủ phát ra, bất kể là cột sáng, quang luân hay là lưỡi đao, dưới sự bao phủ của tơ đen bất ngờ dần ảm đạm xuống, thế công dần chậm lại, bắt đầu xuất hiện xu hướng suy tàn.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 22: Lục Túc thúc giục Hàn Lập [URGENT] === -->
+  <voice name="zh-CN-YunjianNeural">
+    <mstts:express-as style="angry" styledegree="1.2">
+      <prosody rate="-5%" pitch="-5%">
+        "韩道友还不出手，等待什么。"
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-5%">
+        "Hàn đạo hữu chưa ra tay, còn chờ gì nữa?"
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- Narrate: từ quầng sáng truyền ra -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="-5%">
+        六足声音，忽然从彩色光罩中冷冷传出。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-5%">
+        Giọng nói của Lục Túc từ trong quầng sáng rực rỡ lạnh lùng truyền ra.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 23: Nguyên khí cạn kiệt === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="-5%">
+        由巨阵凝聚而来的天地元气，在支持它放出黑色光柱的同时，在急剧变小。一旁操纵金色巨轮的木青，也是同样如此。显然这两种神通都是大耗法力，即使借助阵之力也无法支持太久的样子。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-5%">
+        Thiên địa nguyên khí ngưng tụ từ pháp trận cực lớn kia vừa duy trì cho hắc sắc quang trụ kia, đồng thời cũng kịch liệt thu nhỏ lại. Một bên kia Mộc Thanh đang thao túng cự luân màu vàng cũng gặp chuyện tương tự. Rõ ràng hai loại thần thông này đều hao tổn pháp lực cực lớn, cho dù mượn pháp trận cũng khó duy trì được lâu.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 24: Hàn Lập phóng kim cầu [ACTION] === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="+5%">
+        韩立深吸了一口气，虚空托着金球的手掌，五指朝上轻轻一弹。"噗嗤"一声，金球化为一道金光朝高空激射而去。另一只手中飞快点指下，一个硕大的金色符文，同样浮现射出。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="+3%">
+        Hàn Lập hít sâu một hơi, kim cầu trên tay đột nhiên nhẹ nhàng bắn ra. "Vụt" một tiếng, kim cầu hóa thành một đạo kim quang bắn lên phía trời cao. Đồng thời trong tay nhanh chóng điểm một cái, một kim sắc phù văn cực lớn cũng nhanh chóng bắn ra.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 25: Mây đen tụ lại, mặt trời vàng xuất hiện === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="+8%" pitch="+3%">
+        一声晴天霹雳后，附近高空中骤然间狂风大作，乌云密布，一轮金色骄阳在乌云中浮现而出，一股仿佛毁天灭地的气息从乌云中冲天而起。此骄阳表面刹那间电光狂闪不定，雷鸣之声连绵不绝，低沉惊人。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="+5%">
+        Một tiếng sấm nổ vang lên, vùng trời phụ cận đột nhiên cuồng phong gào thét, mây đen dầy đặc tụ lại. Một vòng tròn kim sắc lớn hiện ra giữa mây đen, một cỗ khí tức giống như hủy thiên diệt địa xuất hiện từ trong mây đen xông lên tận trời. Lập tức sau đó điện quang hiện lên, tiếng sấm liên miên không dứt.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 26: Hàn Lập niệm chú, phóng điện === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="-5%">
+        韩立面色凝重，口中传出晦涩的咒语声，一根手指冲前方水面一点。金符一闪！一道粗若水缸的金色光柱，从骄阳中喷射而出，几个闪动后就击在了冥河之水上。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-5%">
+        Hàn Lập sắc mặt ngưng trọng, trong miệng niệm những chú ngữ khó hiểu gì đó, sau đó đưa ngón tay chỉ về phía mặt nước, ánh sáng vàng đột nhiên lóe lên! Một đạo kim sắc quang trụ từ mặt trời giữa mây đen phát ra, chớp động vài cái đã đánh vào mặt nước của Minh Hà.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 27: Lôi điện lan tỏa === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="+5%" pitch="+2%">
+        "砰"一声怪异闷响从水面上发出，金色光柱在接触水面的一瞬间，化为金色雷弧一圈圈的四下扩散而去。雷鸣声大作下，惊人情形出现了——雷光所过之处，冥河之水中浮现的晶莹黑丝，都在金光中灰飞烟灭！
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="+3%">
+        "Uỳnh!" một tiếng trầm đục từ mặt nước phát ra. Kim sắc quang trụ vừa tiếp xúc với mặt nước, trong nháy mắt đã hóa thành kim sắc lôi điện lan tỏa mạnh mẽ ra mọi nơi. Tiếng sấm mãnh liệt, một chuyện kinh người xuất hiện: Tất cả những nơi lôi quang đi qua, tơ đen xuất hiện trong nước đều bị kim quang làm cho tan biến như sương khói.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 28: Mọi người mừng rỡ, tiếp tục tấn công === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="-5%">
+        见此情形，六足等人大喜，急忙各自催动神通继续狂攻水面，而一直在另一边尚未出手的白美妇，也突然口中发出一声凄厉尖鸣。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-5%">
+        Thấy vậy, đám người Lục Túc vô cùng mừng rỡ, vội vàng thúc dục thần thông của mình điên cuồng tấn công vào mặt nước. Mà mỹ phụ đầu bạc vốn luôn đứng một bên chưa ra tay, giờ này trong miệng cũng phát ra một tiếng kêu chói tai.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 29: Tám Quỷ Vương truyền âm khí === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="-5%" pitch="-2%">
+        站在她身后的八名黑影，顿时身上战甲黑芒闪动，竟将身上阴气联结一起了，全都滚滚的向白美妇身上聚集而去。虽然这八名阴甲鬼王都只是炼虚中后期的存在，但八股阴气凝聚一起，仍然惊人之极。一个偌大鬼影，在美妇头顶若隐若现的浮现而出。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-5%">
+        Tám bóng đen đứng sau lưng ả, nhất thời chiến giáp trên người hắc mang chớp động, âm khí trên người cũng liên kết cùng nhau, tất cả cuồn cuộn hướng về mỹ phụ đầu bạc tụ tập lại. Mặc dù tám gã Âm giáp Quỷ Vương này cũng chỉ là Luyện Hư trung kỳ và hậu kỳ, nhưng tám luồng âm khí ngưng tụ lại cùng nhau cũng cực kỳ khủng khiếp. Một quỷ ảnh khổng lồ ẩn ẩn hiện hiện xuất hiện phía trên đỉnh đầu mỹ phụ đầu bạc.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 30: Chuông đen khổng lồ bay lên === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="-5%" pitch="-2%">
+        而白美妇手中的那件黑色小钟，黑芒大放，瞬间腾空飞起，化为了数丈巨大。美妇目中异芒一闪，伸出一根手指，冲空中轻轻一弹。"当"的一声钟鸣传出。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-5%">
+        Mà cái chuông nhỏ màu đen trong tay mỹ phụ đầu bạc cũng phát ra hắc mang, trong nháy mắt đằng không bay lên, biến lớn ra mấy trượng. Mỹ phụ trong mắt chợt lóe quang mang kỳ lạ, mạnh mẽ vươn ngón tay điểm vào không trung. "Ông!", một tiếng chuông đã phát ra.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 31: Quang ba thành thông đạo === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="-5%">
+        一层黑色光波从巨钟上滚滚浮现，铺天盖地的冲前方分开的冥河峡谷一扑而去。诡异的一幕浮现而出。黑色光波一接触整个峡谷通道，竟瞬间化为了一层黑蒙蒙的光幕，一下将四周的水幕托起，在冥河之中形成了一个真正的黑色通道。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-5%">
+        Một tầng hắc sắc quang ba từ trong chuông cuồn cuộn hiện lên, phô thiên cái địa đánh về phía khe sâu giữa Minh Hà. Một màn quỷ dị đã hiện lên. Hắc sắc quang ba vừa mới tiếp xúc với thông đạo khe sau, nháy mắt đã biến hóa bất ngờ, từng đạo quang mang nhộn nhạo bỗng nâng những tường nước ở xung quanh lên, ở giữa dòng sông thực sự tạo thành một thông đạo màu đen hoàn chỉnh!
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 32: Mọi người đẩy sâu thông đạo === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="-5%">
+        而随着六足等人神通的推进，此光幕也仿佛无穷无尽一般向打开的通道深处延绵而去。韩立看到这一切，虽然心中惊讶，但是为了对付从冥河深处不断浮现而出的晶莹黑丝，只能不停的催动空中的金色骄阳，从上面喷出一道接一道的金色光柱出来，协助六足等人不断的推进。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-5%">
+        Mà đám người Lục Túc cũng mạnh mẽ thúc dục thần thông, quầng sáng này giống như vô cùng vô tận hướng về phía sâu thông đạo mà kéo dài đi. Hàn Lập tuy thấy thế trong lòng khá kinh ngạc, nhưng vì đối phó với tơ đen trong suốt không ngừng xuất hiện trong Minh Hà nên chỉ có thể không ngừng thúc dục kim sắc quang luân trên trời liên tiếp phát ra những đạo kim sắc quang trụ, phụ trợ đám người Lục Túc không ngừng đẩy mạnh.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 33: Hàn Lập cười khổ === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="-5%">
+        与此同时，随着黑色峡谷的不断深远，六足和木青等人开始催动身下阵，让自己的攻击也接连不断的延伸下去，全都攻击于一处。韩立见此，望了望高空又补充了几颗金灿灿的金色骄阳，只能苦笑一声的站在原地不动。他可没有这般强大神念，可以操纵祭出的神雷准确落在如此远处。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-5%">
+        Cùng lúc đó, theo sự kéo dài không ngừng của khe sâu, đám người Lục Túc và Mộc Thanh cũng bắt đầu thúc dục pháp trận dưới chân, làm cho công kích của mình không ngừng kéo dài đánh xuống, toàn lực công kích. Hàn Lập thấy vậy, nhìn trên trời cao kim sắc quang luân chỉ biết cười khổ một tiếng. Hắn cũng không có thần niệm mạnh mẽ như thế để ở khoảng cách xa mà vẫn chuẩn xác thao túng thần lôi!
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 34: Uy lực Tế Lôi Thuật === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="-5%">
+        不过好在祭雷术的威能实在不小，只要金色光柱击在附近处，雷弧一蔓延开来仍可将极远处的黑丝全部毁掉。当然随着峡谷的不断深入，韩立也不得不打起精神，用法决控制金色光柱也深入通道中。好在无需瞄准什么准确位置，只要控制大概的距离即可。故而他脸上仍一副轻松之色。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-5%">
+        Chẳng qua uy lực của Tế Lôi Thuật hiện giờ thực sự không nhỏ, chỉ cần bị kim sắc quang trụ đánh trúng một vùng phụ cận, lôi điện hồ lập tức tràn lan nhanh chóng hủy diệt đám tơ đen ở tít đằng xa. Đương nhiên là cùng với khe sâu càng lúc càng kéo dài, Hàn Lập cũng không khỏi cố giữ vững tinh thần, dùng pháp quyết khống chế kim sắc quang trụ xâm nhập thông đạo. Cũng may là không cần phải nhắm vào vị trí chuẩn xác mà chỉ cần khống chế khoảng cách đại khái là được, cho nên vẻ mặt hắn vẫn giữ được sự nhẹ nhàng.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 35: Thông đạo hoàn toàn mở [SUCCESS] === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="-5%">
+        一刻钟后，从峡谷另一端突然传来一声沉闷的巨响！
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-CN-XiaoyiNeural">
+    <mstts:express-as style="cheerful" styledegree="1.5">
+      <prosody rate="-5%" pitch="+5%">
+        "终于全打通了！"
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-5%">
+        Một khắc đồng hồ sau, từ trong khe sâu đột nhiên truyền đến một tiếng nổ nặng nề, đám người Mộc Thanh vừa nghe vậy, lập tức mừng rỡ nói: "Cuối cùng cũng hoàn toàn đả thông!"
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 36: Thu thần thông === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="-5%">
+        随即此女单手一招，片刻后，金色光轮从峡谷深处一飞而回，重新化为了金色巨花，出现在了足下处。白美妇等人也是满脸欣喜，同样纷纷收了神通。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-5%">
+        Lập tức ả phất tay một cái, một lát sau kim sắc quang luân đã từ trong khe sâu bay vụt lại, một lần nữa biến thành đóa hoa kim sắc lớn xuất hiện dưới chân. Đám người mỹ phụ đầu bạc cũng vô cùng vui sướng, đồng thời thu lại thần thông.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 37: Lục Túc ra lệnh hi sinh đám yêu vật [CHILLING TONE] === -->
+  <voice name="zh-CN-YunjianNeural">
+    <mstts:express-as style="serious" styledegree="2">
+      <prosody rate="-15%" pitch="-8%">
+        "好！此通道足可以维持数个时辰，足够我们通过冥河了。但仍要小心冥河中的鬼物攻击，让它们先进入里面吧。能有多少进入冥河之地，还要看它们的运气了。让它们全力向前逃命吧。"
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-8%">
+        "Tốt lắm! Thông đạo này có thể đủ duy trì mấy canh giờ, đủ cho chúng ta thông qua Minh Hà. Tuy vậy vẫn cần cẩn thận quỷ vật ở trong Minh Hà công kích. Để cho bọn chúng trước hết tiến vào trong đi, có thể đi được bao xa thì tùy thuộc vào vận khí của chúng. Ra lệnh cho chúng dùng toàn lực sống chết chạy về phía trước đi."
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+
+  <!-- Narrate: Lục Túc nhìn yêu vật -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="-5%">
+        六足目中绿芒闪动几下后，望着那些低阶妖物，忽然说道。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 38: Hàn Lập ngẩn người === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="-5%">
+        木青等人听到这话，互望一眼，脸上喜色也收敛起来。将祭雷术散去的韩立，却不禁一怔！
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-5%">
+        Đám người Mộc Thanh nghe thế xong, liếc mắt nhìn nhau, vẻ vui mừng trên mặt cũng thu lại. Vừa đem Tế Lôi Thuật tán đi, Hàn Lập thấy vậy cũng không khỏi ngần người ra!
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 39: Quỷ binh và khôi lỗi dàn hàng === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="-5%" pitch="-2%">
+        而这时，所有的傀儡和鬼兵两种存在已经聚集在了通道入口处，并且古怪异常的分成左右最边缘处的两排，而那些低阶妖兽则在高阶妖物呵斥下，纷纷被聚集在了中间位置。数量多达数万的存在，几乎将整个通道堵得水泄不通！
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-5%">
+        Lúc này, tất cả các khôi lỗi và đám quỷ binh đã tập hợp ở trước lối vào thông đạo, hơn nữa vô cùng quy củ chia thành hai hàng trái phải đứng hai bên. Mà đám đê giai yêu thú cho đến đám cao giai yêu vật đều tập trung ở vị trí trung tâm. Số lượng đạt đến gần vạn, gần như lèn chật cứng cái thông đạo!
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 40: Lệnh tiến vào, quỷ binh bên ngoài trước === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="-5%">
+        在几名妖王一声令下，顿时两旁的鬼兵和傀儡，先出一步的向通道中飞去。那些阴甲玄鬼身上笼罩的黑风此刻已经散去，终于显露出了它们的庐山真面目。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-5%">
+        Dưới mệnh lệnh của mấy tên yêu vương phát ra, nhất thời quỷ binh và khôi lỗi ở hai bên trước tiên xuất phát hướng về phía trong thông đạo bay đến. Mà hắc phong bao phủ trên người đám Âm giáp huyền quỷ giờ phút này cũng đã tán đi, hiện ra bề ngoài thực sự của chúng.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 41: Miêu tả quỷ binh === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="-10%" pitch="-4%">
+        一个个身上套着锃亮的半身黑甲，单手倚着戈、叉等各种长兵刃，而从黑甲中露出的肌肤，一个个灰扑扑的，仿佛一具具干尸一般，而整颗头颅却又被一团绿色鬼火罩住。绿火闪动下，赫然一个个面目狰狞的骷髅头。这些玄鬼一个个全无表情，一言不发的，身上都散着淡淡的阴寒。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-8%">
+        Một đám mang trên người hắc giáp, tay cầm đủ loại binh khí, da thịt lộ ra dưới hắc giáp đều có màu xám xịt ảm đạm, giống như là xác khô vậy. Còn trên đầu thì bị một đoàn quỷ hỏa màu xanh bao phủ. Lửa xanh chớp động, ẩn hiện trong đó là những chiếc đầu lâu dữ tợn. Đám huyền quỷ này hoàn toàn không nói lời nào, không có bất cứ biểu hiện gì, trên người chỉ tỏa ra âm hàn lạnh lẽo.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 42: Hàn Lập suy nghĩ về quỷ binh === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="-5%">
+        韩立站在木青身后，望着这些鬼物，双目不禁微眯起来。这冥河之地本身就是鬼物众多，可六足等人仍然炼制这般多鬼兵，看来其中定另有什么玄机的。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-5%">
+        Hàn Lập đứng ở phía sau Mộc Thanh, nhìn đám quỷ vật đó, không khỏi khẽ nhíu mày. Minh Hà chi địa bản thân phần đông là quỷ vật. Đám người Lục Túc thế mà vẫn luyện chế nhiều quỷ binh như vậy, xem ra trong đó ắt còn có huyền cơ khác.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 43: Đê giai yêu vật bị đẩy vào === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="-5%">
+        片刻后，夹在傀儡和鬼兵的低阶妖物，也被命令的纷纷飞入通道中。六足等人和那些高阶妖物却在通道外冷眼旁观，现在丝毫没有一同进入其中的意思。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-5%">
+        Một lát sau, đám đê giai yêu thú bị kẹp giữa khôi lỗi và quỷ binh cũng được mệnh lệnh đều bay vào trong thông đạo. Đám người Lục Túc cùng với các cao giai yêu vật chỉ lạnh nhạt đứng chờ ngoài thông đạo, như chẳng hề có ý tiến vào.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === CÂU 44: Tơ bạc tấn công [FINAL SCENE] === -->
+  <voice name="zh-CN-YunxiNeural">
+    <mstts:express-as style="narration-professional">
+      <prosody rate="+5%" pitch="+2%">
+        就在低阶妖物方才进入黑色峡谷通道的一瞬间，四周的黑色光幕中银芒一闪，"嗤嗤"的破空声大作，无数银丝从四面八方铺天盖地的激射而出。它们的目标全都是中间的那些低阶妖物。至于分列两边的傀儡和玄鬼，银丝丝毫不感兴趣的样子。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="+3%">
+        Ngay khi đám đê giai yêu thú vừa tiến vào thông đạo màu đen, trong nháy mắt bốn phía quanh hắc sắc quang mạc bỗng lóe lên ánh bạc, rồi từng tiếng gió mãnh liệt vang lên, vô số sợi tơ bạc từ bốn phương tám hướng phô thiên cái đại bắn nhanh ra. Mục tiêu của chúng tất cả đều là đám đê giai yêu vật đứng giữa, về phần khôi lỗi và huyền quỷ đứng hai bên, đám tơ bạc xem ra không hề thấy hứng thú.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <!-- === KẾT CHƯƠNG === -->
+  <voice name="zh-CN-YunjianNeural">
+    <mstts:express-as style="serious">
+      <prosody rate="-20%" pitch="-5%">
+        第一千四百七十六章　完。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="vi-VN-NamMinhNeural">
+    <mstts:express-as style="calm">
+      <prosody rate="-15%" pitch="-3%">
+        Hết chương một nghìn bốn trăm bảy mươi sáu.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+</speak>
